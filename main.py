@@ -1,0 +1,40 @@
+import uvicorn
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from auth.router import auth_router
+from mail.router import mail_router
+from media.router import media_router
+from words.router import dictionary_router
+from suggestion.router import suggests_router
+
+app = FastAPI()
+app.include_router(auth_router, prefix='/auth')
+app.include_router(mail_router, prefix='/mail')
+app.include_router(media_router, prefix='/media')
+app.include_router(dictionary_router, prefix='/dictionary')
+app.include_router(suggests_router, prefix='/suggestion')
+
+origins = ['*']
+methods = ["GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"]
+headers = [
+    "Content-Type",
+    "Authorization",
+    "Access-Control-Request-Headers",
+    "Access-Control-Allow-Headers"
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=methods,
+    allow_headers=headers,
+)
+
+@app.head()
+@app.get('/')
+def health_check():
+    return {"message": "Welcome to Bal Rus Dictionary"}
+
+if __name__ == '__main__':
+    uvicorn.run('main:app', host='127.0.0.1', port=8000, reload=True, workers=4)
