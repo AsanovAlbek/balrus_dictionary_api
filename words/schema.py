@@ -5,3 +5,4 @@ class Word(BaseModel):
     name: str
     meaning: str
     audio_url: str
+    audio_path: str

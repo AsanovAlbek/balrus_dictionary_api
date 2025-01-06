@@ -6,6 +6,8 @@ from sqlalchemy.ext.asyncio import AsyncSession
 import model
 from typing import Optional
 import utils
+import media.service as media_service
+from media import media_utils
 
 
 async def word_by_id(id: int, session: AsyncSession) -> model.Word:
@@ -23,7 +25,8 @@ async def add_word(word: schema.Word, session: AsyncSession) -> bool:
     db_word = model.Word(
         name=word.name,
         meaning=word.meaning,
-        audio_url=word.audio_url
+        audio_url=word.audio_url,
+        audio_path=word.audio_path
     )
     session.add(db_word)
     utils.try_commit(session, on_error=utils.handle_internal_error)
@@ -41,6 +44,7 @@ async def update_word(word: schema.Word, session: AsyncSession):
     db_word.name = word.name
     db_word.meaning = word.meaning
     db_word.audio_url = word.audio_url
+    db_word.audio_path = word.audio_path
     session.add(db_word)
     utils.try_commit(session, on_error=utils.handle_internal_error)
     return Response(
@@ -56,6 +60,10 @@ async def delete_word(word_id: int, session: AsyncSession):
     db_word = await word_by_id(id=word_id, session=session)
     session.delete(db_word)
     utils.try_commit(session, on_error=utils.handle_internal_error)
+    media_utils.try_connect(
+        config=media_service.config,
+        on_success=lambda sftp, _: media_service.delete_file(sftp=sftp, file_path=db_word.audio_path)
+    )
     return Response(
         status_code=status.HTTP_200_OK,
         content={

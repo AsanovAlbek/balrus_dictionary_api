@@ -6,72 +6,32 @@ from database.database import get_async_session
 
 dictionary_router = APIRouter(tags=['dictionary'])
 
-
 @dictionary_router.post('/add_word', description='Добавить слово')
-async def add_word(word: schema.Word, session: AsyncSession = Depends(get_async_session)):
+async def add_word(word: schema.Word, session: AsyncSession=Depends(get_async_session)):
     return service.add_word(word, session)
-
 
 @dictionary_router.post('/update_word', description='Обновить слово')
-async def update_word(word: schema.Word, session: AsyncSession = Depends(get_async_session)):
+async def update_word(word: schema.Word, session: AsyncSession=Depends(get_async_session)):
     return service.update_word(word, session)
-
 
 @dictionary_router.delete('/remove_word', description='Удалить слово')
-async def remove_word(word_id: int, sessfrom fastapi import APIRouter, Response, status, Depends
-from sqlalchemy.ext.asyncio import AsyncSession
-import schema
-import service
-from database.database import get_async_session
-
-dictionary_router = APIRouter(tags=['dictionary'])
-
-@dictionary_router.post('/add_word', description='Добавить слово', response_model=schema.Word)
-async def add_word(word: schema.Word, session: AsyncSession = Depends(get_async_session)):
-    return service.add_word(word, session)
-
-@dictionary_router.post('/update_word', description='Обновить слово', response_model=schema.Word)
-async def update_word(word: schema.Word, session: AsyncSession = Depends(get_async_session)):
-    return service.update_word(word, session)
-
-@dictionary_router.delete('/remove_word', description='Удалить слово', response_model=schema.Word)
-async def remove_word(word_id: int, session: AsyncSession = Depends(get_async_session)):
+async def remove_word(word_id: int, session: AsyncSession=Depends(get_async_session)):
     return service.delete_word(word_id, session)
-
-@dictionary_router.get('/get_words', description='Получить слова по названию', response_model=list[schema.Word])
-async def get_words(
-    name: str = '', 
-    page: int = 0, 
-    size: int = 100, 
-    session: AsyncSession = Depends(get_async_session)
-):
-    return service.get_words(name, page, size, session)
-
-@dictionary_router.get('/words_count', description='Количество слов по названию', response_model=int)
-async def words_count(name: str = '', session: AsyncSession = Depends(get_async_session)):
-    return service.words_count(name, session)
-
-@dictionary_router.get('/word_by_id', description='Слово по ID', response_model=schema.Word)
-async def word_by_id(id: int, session: AsyncSession = Depends(get_async_session)):
-    return service.word_by_id(id AsyncSession = Depends(get_async_session)):
-    return service.delete_word(word_id, session)
-
 
 @dictionary_router.get('/get_words', description='Получить слова по названию')
 async def get_words(
-    name: str = '', 
-    page: int = 0, 
-    size: int = 100, 
-    session: AsyncSession = Depends(get_async_session)
+    name: str='',
+    page: int=0,
+    size: int=100,
+    session: AsyncSession=Depends(get_async_session)
 ):
     return service.get_words(name, page, size, session)
 
-
 @dictionary_router.get('/words_count', description='Количество слов по названию')
-async def words_count(name: str = '', session: AsyncSession = Depends(get_async_session)):
+async def words_count(name: str='', session: AsyncSession=Depends(get_async_session)):
     return service.words_count(name, session)
 
 
 @dictionary_router.get('/word_by_id', description='Слово по ID')
-async def word_by_id(id: int, session: AsyncSession = Depends(get_async_session)):
+async def word_by_id(id: int, session: AsyncSession=Depends(get_async_session)):
     return service.word_by_id(id, session)
