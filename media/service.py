@@ -1,15 +1,16 @@
 import paramiko.config
 from sqlalchemy.ext.asyncio import AsyncSession
-from fastapi import UploadFile, File, status, HTTPException, Response
+from fastapi import UploadFile, File, status, HTTPException
 from dotenv import load_dotenv
 from os import getenv
 from datetime import datetime
 import paramiko
 from typing import Callable
-import media_utils
-from model import SFTPConfig
+from media import media_utils
+from media.model import SFTPConfig
 import logging
 import base64
+from starlette.responses import JSONResponse
 
 SFTP_HOSTNAME = getenv("SFTP_HOSTNAME")
 SFTP_PORT = getenv("SFTP_PORT")
@@ -20,7 +21,7 @@ FOLDER_URL = getenv("FOLDER_URL")
 STATIC_FOLDER = getenv("STATIC_FOLDER")
 
 config = SFTPConfig(
-    hostname=SFTP_HOSTNAME,
+    host=SFTP_HOSTNAME,
     port=int(SFTP_PORT),
     username=SFTP_USERNAME,
     password=SFTP_PASSWORD
@@ -31,9 +32,9 @@ async def upload_file(
     sftp: paramiko.SFTPClient,
     upload_file: UploadFile
 ):
-    file_path = media_utils.create_unique_filepath(upload_file, STATIC_FOLDER)
-    sftp.putfo(file_path, upload_file.file)
-    return Response(
+    file_path = await media_utils.create_unique_filepath(upload_file, FOLDER_URL)
+    sftp.putfo(upload_file.file, file_path)
+    return JSONResponse(
         status_code=status.HTTP_200_OK,
         content={
             "message": f"Файл {upload_file.filename} успешно добавлен",
@@ -47,10 +48,11 @@ async def delete_file(
     sftp: paramiko.SFTPClient,
 ):
     sftp.remove(file_path)
-    return Response(
+    removed_file_name = file_path.split('/')[-1]
+    return JSONResponse(
         status_code=status.HTTP_200_OK,
         content={
-            "message": f"Файл {file_path} успешно удален",
+            "message": f"Файл {removed_file_name} успешно удален",
             "file_path": file_path
         }
     )
@@ -60,20 +62,21 @@ async def get_file(file_path: str, sftp: paramiko.SFTPClient):
     with sftp.open(file_path, "rb") as remote_file:
         audio_bytes = remote_file.read()
         contents = base64.b64encode(audio_bytes).decode()
-    return Response(
+    remote_file_name = file_path.split('/')[-1]
+    return JSONResponse(
         status_code=status.HTTP_200_OK,
         content={
-            "message": f"Файл {file_path} получен успешно",
+            "message": f"Файл {remote_file_name} получен успешно",
             "file_bytes": contents
         }
     )
 
 
 async def files_list(sftp: paramiko.SFTPClient):
-    return Response(
+    return JSONResponse(
         status_code=status.HTTP_200_OK,
         content={
             "message": "Список всех файлов",
-            "files": sftp.listdir()
+            "files": sftp.listdir(FOLDER_URL)[:5]
         }
     )

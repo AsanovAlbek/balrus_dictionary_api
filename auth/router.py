@@ -6,7 +6,7 @@ from typing import Annotated
 from sqlalchemy.ext.asyncio import AsyncSession
 
 auth_router = APIRouter(tags=['auth'])
-oauth2_scheme = OAuth2PasswordBearer()
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl='/auth/jwt/login')
 
 @auth_router.post('/register', description='Регистрация')
 async def register(user: schema.CreateUser, session: AsyncSession = Depends(get_async_session)):
@@ -42,7 +42,7 @@ async def get_current_user(
     token: str = Depends(oauth2_scheme), 
     session: AsyncSession = Depends(get_async_session)
 ):
-    return await service.get_current_user()
+    return await service.get_current_user(token, session)
 
 @auth_router.post('/refresh_token', description='Обновить токен')
 async def refresh_token(token: str):

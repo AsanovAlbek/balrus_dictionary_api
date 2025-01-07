@@ -2,7 +2,7 @@ from typing import Optional
 from dotenv import load_dotenv
 import os
 from datetime import datetime, timedelta, timezone
-from fastapi import HTTPException, Response, status, Depends
+from fastapi import HTTPException, status, Depends
 from fastapi.security import OAuth2PasswordBearer
 import jwt
 import hashlib
@@ -12,6 +12,7 @@ from auth import model, schema
 from sqlalchemy import select
 import random
 import utils
+from starlette.responses import JSONResponse
 
 load_dotenv()
 ACCESS_SECRET = os.getenv("ACCESS_TOKEN_SECRET")
@@ -59,7 +60,7 @@ async def create_user(user: schema.CreateUser, session: AsyncSession):
     )
 
     session.add(new_user)
-    return utils.try_commit(session=session)
+    return await utils.try_commit(session=session)
 
 
 async def get_user_by_email(email: str, session: AsyncSession) -> Optional[model.User]:
@@ -78,8 +79,8 @@ def verify_password(password: str, hashed_password: str) -> bool:
 
 async def authenticate_user(email: str, password: str, session: AsyncSession):
     user = await get_user_by_email(email=email, session=session)
-    if not user or not verify_password(password, user.password):
-        return False
+    if not user and not verify_password(password, user.password):
+        return None
     return user
 
 
@@ -92,19 +93,16 @@ async def login_user(email: str, password: str, session: AsyncSession):
             headers={"WWW-Authenticate": "Bearer"}
         )
     access_token = create_token(
-        data={"id", user.id},
+        data={"id": user.id},
         expire_delta=timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES))
     refresh_token = create_token(
-        data={"id", user.id},
+        data={"id": user.id},
         expire_delta=timedelta(days=REFRESH_TOKEN_EXPIRE_DAYS))
-    return Response(
-        content={
+    return {
             "access_token": access_token,
             "refresh_token": refresh_token,
             "token_type": "bearer"
-        },
-        status_code=status.HTTP_200_OK
-        )
+    }
 
 async def user_activation(code: str, user: schema.User, session: AsyncSession):
     activation = await session.execute(select(model.Activation).filter_by(user_email = user.email))
@@ -135,8 +133,8 @@ async def user_activation(code: str, user: schema.User, session: AsyncSession):
         )
     db_user.is_active = True
     session.add(db_user)
-    utils.try_commit(session=session, on_error=utils.handle_internal_error)
-    return Response(
+    await utils.try_commit(session=session, on_error=utils.handle_internal_error)
+    return JSONResponse(
         status_code=status.HTTP_200_OK, 
         content={"message": "Аккаунт успешно активирован"}
     )
@@ -145,17 +143,19 @@ async def user_activation(code: str, user: schema.User, session: AsyncSession):
 
 async def refresh_token(r_token: str):
     try:
-        payload = jwt.decode(r_token, ACCESS_SECRET, algorithm=[ALGORITHM])
+        payload = jwt.decode(r_token, ACCESS_SECRET, algorithms=[ALGORITHM])
         user_id = payload.get("id")
         if not user_id:
+            print('not user id')
             raise HTTPException(
                 status_code=status.HTTP_403_FORBIDDEN,
                 detail="Could not validate creditials")
         new_access_token = create_token(
             data={"id": user_id},
             expire_delta=timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES))
-        return Response(content={"access_token": new_access_token, "token_type": "bearer"})
-    except (jwt.ExpiredSignatureError, jwt.InvalidTokenError):
+        return JSONResponse(content={"access_token": new_access_token, "token_type": "bearer"})
+    except (jwt.ExpiredSignatureError, jwt.InvalidTokenError) as e:
+        print(f'jwt error {e}')
         raise HTTPException(
             status_code=status.HTTP_403_FORBIDDEN,
             detail="Could not validate creditials")
@@ -167,15 +167,15 @@ async def get_current_user(token: str = Depends(oauth2_scheme), session: AsyncSe
         detail="Could not validate creditionals",
         headers={"WWW-Authenticate": "Bearer"})
     try:
-        payload = jwt.decode(token, ACCESS_SECRET, algorithm=[ALGORITHM])
+        payload = jwt.decode(token, ACCESS_SECRET, algorithms=[ALGORITHM])
         user_id = payload.get("id")
         if not user_id:
             raise creditionals_exception
-    except jwt.InvalidTokenError:
+    except jwt.InvalidTokenError as jwte:
         raise creditionals_exception
     user = await get_user_by_id(user_id=user_id, session=session)
     if not user:
-        raise creditionals_exception
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail='Пользователь не найден')
     return schema.User(
         id=user.id,
         name=user.name,
@@ -197,25 +197,25 @@ async def create_reset_password_code(email: str, session: AsyncSession):
     check = await session.execute(select(model.Reset).filter_by(user_email=email))
     check = check.scalars().first()
     if check:
-        t = datetime.now() - check.date_of_creation
+        t = datetime.now() - check.created_date
         if t.total_seconds() < timedelta(minutes=3).total_seconds():
             raise HTTPException(
                 status_code=status.HTTP_400_BAD_REQUEST,
                 detail="Повторите запрос позднее"
             )
         await session.delete(check)
-        utils.try_commit(session=session)
+        await utils.try_commit(session=session)
 
     new_code = model.Reset(
         user_email=email,
         code=code,
-        date_of_creation=datetime.now(),
+        created_date=datetime.now(),
         expiration_date=datetime.now() + timedelta(minutes=10)
     )
 
     session.add(new_code)
-    utils.try_commit(session=session)
-    return Response(content=code, status_code=status.HTTP_200_OK)
+    await utils.try_commit(session=session)
+    return JSONResponse(content=code, status_code=status.HTTP_200_OK)
 
 
 async def change_password(email: str, new_password: str, session: AsyncSession):
@@ -230,5 +230,5 @@ async def change_password(email: str, new_password: str, session: AsyncSession):
             detail=f"Пользователь с почтой {email} не найден")
     user.password = hash_password(new_password)
     session.add(user)
-    utils.try_commit(session=session, on_error=utils.handle_internal_error)
-    return Response(content="Пароль успешно изменён", status_code=status.HTTP_200_OK)
+    await utils.try_commit(session=session, on_error=utils.handle_internal_error)
+    return JSONResponse(content="Пароль успешно изменён", status_code=status.HTTP_200_OK)

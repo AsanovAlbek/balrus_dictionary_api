@@ -11,7 +11,7 @@ async def try_commit(
         session: AsyncSession, 
         on_error: Callable[[Exception], None] = None) -> bool:
     try:
-        session.commit()
+        await session.commit()
         return True
     except Exception as e:
         await session.rollback()

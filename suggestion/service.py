@@ -1,10 +1,11 @@
-from fastapi import status, HTTPException, Response
+from fastapi import status, HTTPException
 from sqlalchemy.ext.asyncio import AsyncSession
-import model
-import schema
+from suggestion import model
+from suggestion import schema
 import utils
 from sqlalchemy import select, func
 from words.model import Word
+from starlette.responses import JSONResponse
 
 async def suggest(suggest_word: schema.SuggestWord, session: AsyncSession):
     db_suggest = model.SuggestWord(
@@ -14,8 +15,8 @@ async def suggest(suggest_word: schema.SuggestWord, session: AsyncSession):
         user_id = suggest_word.user_id
     )
     session.add(db_suggest)
-    utils.try_commit(session, on_error=utils.handle_internal_error)
-    return Response(
+    await utils.try_commit(session, on_error=utils.handle_internal_error)
+    return JSONResponse(
         status_code=status.HTTP_200_OK,
         content={
             "message": "Слово отправлено на рассмотрение",
@@ -34,8 +35,8 @@ async def accept(suggest_id: int, session: AsyncSession):
     session.add(word)
     session.delete(suggest)
     # тут ещё можно отправлять пользователю сообщение, что его слово принято
-    utils.try_commit(session, on_error=utils.handle_internal_error)
-    return Response(
+    await utils.try_commit(session, on_error=utils.handle_internal_error)
+    return JSONResponse(
         status_code=status.HTTP_200_OK,
         content={
             "message": "Предложенное слово принято",
@@ -48,8 +49,8 @@ async def reject(suggest_id: int, session: AsyncSession):
     suggest = await get_suggest_by_id(suggest_id, session)
     session.delete(suggest)
     # тут ещё можно отправлять пользователю сообщение, что его слово отклонено
-    utils.try_commit(session, on_error=utils.handle_internal_error)
-    return Response(
+    await utils.try_commit(session, on_error=utils.handle_internal_error)
+    return JSONResponse(
         status_code=status.HTTP_200_OK,
         content={
             "message": "Предложенное слово отклонено",

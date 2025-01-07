@@ -2,7 +2,7 @@ from datetime import datetime
 from typing import Callable
 from fastapi import UploadFile, HTTPException, status, Response
 import paramiko
-import model
+from media import model
 
 async def create_unique_filepath(file: UploadFile, static_folder: str):
     now_str = datetime.now().strftime('%d-%m-%Y-%H-%M-%S')
@@ -33,14 +33,18 @@ async def try_connect(
     sftp: paramiko.SFTPClient | None = None
     ssh: paramiko.SSHClient = None
     try:
-        sftp, ssh = __get_connection(config=config)
-        return on_success(sftp, ssh)
-    except (IOError, FileNotFoundError):
+        sftp, ssh = await __get_connection(config=config)
+        return await on_success(sftp, ssh)
+    except (IOError, FileNotFoundError) as io_e:
+        print(f"io ex = {io_e}")
+        if on_error:
+            on_error(io_e)
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND, 
             detail="Файл не найден"
         )
     except Exception as e:
+        print(f"ex = {e}")
         if on_error:
             on_error(e)
         raise HTTPException(

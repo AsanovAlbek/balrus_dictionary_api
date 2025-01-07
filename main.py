@@ -8,7 +8,7 @@ from words.router import dictionary_router
 from suggestion.router import suggests_router
 
 app = FastAPI()
-app.include_router(auth_router, prefix='/auth')
+app.include_router(auth_router, prefix='/auth/jwt')
 app.include_router(mail_router, prefix='/mail')
 app.include_router(media_router, prefix='/media')
 app.include_router(dictionary_router, prefix='/dictionary')
@@ -31,7 +31,7 @@ app.add_middleware(
     allow_headers=headers,
 )
 
-@app.head()
+@app.head('/')
 @app.get('/')
 def health_check():
     return {"message": "Welcome to Bal Rus Dictionary"}

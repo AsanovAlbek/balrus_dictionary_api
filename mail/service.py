@@ -1,10 +1,11 @@
 from dotenv import load_dotenv
 from fastapi_mail import ConnectionConfig, FastMail, MessageSchema, MessageType
-from fastapi import status, Response
+from fastapi import status
 from sqlalchemy.ext.asyncio import AsyncSession
 from auth import service as auth_service
 from mail.schema import EmailSchema
 import os
+from starlette.responses import JSONResponse
 
 
 load_dotenv()
@@ -13,7 +14,7 @@ MAIL_USERNAME = os.getenv("MAIL_USERNAME")
 MAIL_PASSWORD = os.getenv("MAIL_PASSWORD")
 MAIL_FROM = os.getenv("MAIL_FROM")
 MAIL_SERVER = os.getenv("MAIL_SERVER")
-MAIL_PORT = os.getenv("MAIL_PORT")
+MAIL_PORT = int(os.getenv("MAIL_PORT"))
 
 config = ConnectionConfig(
     MAIL_USERNAME=MAIL_USERNAME,
@@ -57,11 +58,11 @@ async def send_activation_code(email: str, session: AsyncSession):
         </html>
     """
     if await send_email_message(email, template):
-        return Response(
+        return JSONResponse(
             content={"success": True, "message": "Код успешно отправлен на почту"}, 
             status_code=status.HTTP_200_OK
         )
-    return Response(
+    return JSONResponse(
         content={"success": False, "message": "Ошибка отправки кода активации"},
         status_code=status.HTTP_500_INTERNAL_SERVER_ERROR
     )
@@ -81,11 +82,11 @@ async def send_reset_password_code(email: str, session: AsyncSession):
     </html>
     """
     if await send_email_message(email, template):
-        return Response(
+        return JSONResponse(
             content={"success": True, "message": "Код успешно отправлен на почту"},
             status_code=status.HTTP_200_OK
         )
-    return Response(
+    return JSONResponse(
         content={"success": False, "message": "Ошибка отправки кода сброса пароля"},
         status_code=status.HTTP_500_INTERNAL_SERVER_ERROR
     )

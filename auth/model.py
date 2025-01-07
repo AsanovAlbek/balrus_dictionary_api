@@ -11,8 +11,8 @@ class User(Base):
     password = Column(String(), nullable=False)
     imei = Column(String(), nullable=False)
     is_active = Column(Boolean(), default=False, nullable=False)
-    is_superuser = Column(Boolean(), default=False, nullable=False)
-    created_date = Column(DateTime, nullable=False, default=datetime.timezone.utc, server_default=func.now())
+    is_admin = Column(Boolean(), default=False, nullable=False)
+    created_date = Column(DateTime, nullable=False, default=datetime.datetime.now())
 
 class Activation(Base):
     __tablename__ = 'activations'
@@ -28,5 +28,5 @@ class Reset(Base):
     id = Column(Integer(), primary_key=True)
     user_email = Column(String(), unique=True, nullable=False)
     code = Column(String(), nullable=False)
-    date_of_creation = Column(DateTime, nullable=False, default=datetime.timezone.utc, server_default=func.now())
+    created_date = Column(DateTime, nullable=False, default=datetime.datetime.now())
     expiration_date = Column(DateTime, nullable=False)
