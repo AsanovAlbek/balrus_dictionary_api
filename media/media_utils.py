@@ -1,12 +1,13 @@
 from datetime import datetime
 from typing import Callable
-from fastapi import UploadFile, HTTPException, status, Response
+from fastapi import UploadFile, HTTPException, status
 import paramiko
 from media import model
+from starlette.responses import JSONResponse
 
-async def create_unique_filepath(file: UploadFile, static_folder: str):
+async def create_unique_filepath(file: UploadFile, folder: str):
     now_str = datetime.now().strftime('%d-%m-%Y-%H-%M-%S')
-    file_path = f"{static_folder}{now_str}_{file.filename}"
+    file_path = f"{folder}{now_str}_{file.filename}"
     return file_path.replace(' ', '_')
 
 async def __get_connection(config: model.SFTPConfig):
@@ -25,9 +26,9 @@ async def __get_connection(config: model.SFTPConfig):
 
 async def try_connect(
     config: model.SFTPConfig,
-    on_success: Callable[[paramiko.SFTPClient, paramiko.SSHClient], Response] = None,
+    on_success: Callable[[paramiko.SFTPClient, paramiko.SSHClient], JSONResponse] = None,
     on_error: Callable[[Exception], None] = None,
-) -> Response:
+) -> JSONResponse:
     # Они останутся None только если __get_connection закончится с ошибкой
     # Тогда код перейдёт в блок except и on_success не вызовется с None значениями sftp и ssh
     sftp: paramiko.SFTPClient | None = None
@@ -36,7 +37,6 @@ async def try_connect(
         sftp, ssh = await __get_connection(config=config)
         return await on_success(sftp, ssh)
     except (IOError, FileNotFoundError) as io_e:
-        print(f"io ex = {io_e}")
         if on_error:
             on_error(io_e)
         raise HTTPException(
@@ -44,7 +44,6 @@ async def try_connect(
             detail="Файл не найден"
         )
     except Exception as e:
-        print(f"ex = {e}")
         if on_error:
             on_error(e)
         raise HTTPException(

@@ -4,12 +4,9 @@ from fastapi import status, HTTPException
 from sqlalchemy import select, func
 from sqlalchemy.ext.asyncio import AsyncSession
 from words import model
-from typing import Optional
 import utils
-import media.service as media_service
-from media import media_utils
 from starlette.responses import JSONResponse
-
+from media import router as files_router
 
 async def word_by_id(id: int, session: AsyncSession) -> model.Word:
     result = await session.execute(select(model.Word).filter_by(id=id))
@@ -61,10 +58,7 @@ async def delete_word(word_id: int, session: AsyncSession):
     db_word = await word_by_id(id=word_id, session=session)
     session.delete(db_word)
     await utils.try_commit(session, on_error=utils.handle_internal_error)
-    await media_utils.try_connect(
-        config=media_service.config,
-        on_success=lambda sftp, _: media_service.delete_file(sftp=sftp, file_path=db_word.audio_path)
-    )
+    await files_router.delete_file(file_path=db_word.audio_path)
     return JSONResponse(
         status_code=status.HTTP_200_OK,
         content={

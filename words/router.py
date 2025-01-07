@@ -4,6 +4,7 @@ from words import schema
 from words import service
 from database.database import get_async_session
 
+
 dictionary_router = APIRouter(tags=['dictionary'])
 
 @dictionary_router.post('/add_word', description='Добавить слово')

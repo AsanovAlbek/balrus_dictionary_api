@@ -185,7 +185,7 @@ async def get_current_user(token: str = Depends(oauth2_scheme), session: AsyncSe
 
 
 def generate_code(digits_count: int = 6):
-    return str(random.randint(10 ** digits_count, 10 ** (digits_count + 1) - 1))
+    return str(random.randint(10 ** (digits_count - 1), 10 ** digits_count - 1))
 
 
 async def create_reset_password_code(email: str, session: AsyncSession):
@@ -215,7 +215,7 @@ async def create_reset_password_code(email: str, session: AsyncSession):
 
     session.add(new_code)
     await utils.try_commit(session=session)
-    return JSONResponse(content=code, status_code=status.HTTP_200_OK)
+    return code
 
 
 async def change_password(email: str, new_password: str, session: AsyncSession):

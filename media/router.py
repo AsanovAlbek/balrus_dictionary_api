@@ -18,7 +18,7 @@ async def upload_file(file: UploadFile):
     )
 
 @media_router.post('/delete_file')
-async def delete_file(file_path: str, session: AsyncSession = Depends(get_async_session)):
+async def delete_file(file_path: str):
     async def delete(sftp, ssh):
         return await service.delete_file(sftp=sftp, file_path=file_path)
     
