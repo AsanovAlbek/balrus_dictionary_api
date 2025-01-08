@@ -43,6 +43,8 @@ async def try_connect(
             status_code=status.HTTP_404_NOT_FOUND, 
             detail="Файл не найден"
         )
+    except HTTPException as http_exception:
+        raise http_exception
     except Exception as e:
         if on_error:
             on_error(e)

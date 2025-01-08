@@ -4,6 +4,7 @@ from auth import service, schema
 from database.database import get_async_session
 from typing import Annotated
 from sqlalchemy.ext.asyncio import AsyncSession
+from starlette.responses import JSONResponse
 
 auth_router = APIRouter(tags=['auth'])
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl='/auth/jwt/login')
@@ -17,13 +18,20 @@ async def register(user: schema.CreateUser, session: AsyncSession = Depends(get_
         )
     if not await service.create_user(user=user, session=session):
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST)
-    
-    return schema.UserBase(
+    user = schema.UserBase(
         name = user.name,
         email= user.email,
         imei= user.imei,
         is_active=user.is_active,
         is_admin=user.is_admin
+    )
+    
+    return JSONResponse(
+        status_code=status.HTTP_201_CREATED,
+        content={
+            "message": "Пользователь успешно зарегистрирован",
+            "user": user.model_dump()
+        },
     )
 
 @auth_router.post('/login', description='Вход')

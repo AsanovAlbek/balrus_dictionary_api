@@ -6,7 +6,7 @@ from media import media_utils
 
 media_router = APIRouter(tags=['media'])
 
-@media_router.post('/upload_file')
+@media_router.post('/upload_file', description='Загрузить файл')
 async def upload_file(file: UploadFile):
 
     async def upload(sftp, ssh):
@@ -17,7 +17,7 @@ async def upload_file(file: UploadFile):
         on_success=upload
     )
 
-@media_router.post('/delete_file')
+@media_router.post('/delete_file', description='Удалить файл')
 async def delete_file(file_path: str):
     async def delete(sftp, ssh):
         return await service.delete_file(sftp=sftp, file_path=file_path)
@@ -27,7 +27,7 @@ async def delete_file(file_path: str):
         on_success=delete
     )
 
-@media_router.get('/get_file')
+@media_router.get('/get_file', description='Получить файл')
 async def get_file(file_path: str):
     async def get(sftp, ssh):
         return await service.get_file(sftp=sftp, file_path=file_path)
@@ -36,7 +36,7 @@ async def get_file(file_path: str):
         on_success=get
     )
 
-@media_router.get('/files_list')
+@media_router.get('/files_list', description='Список всех файлов (Аккуратно, очень долгая операция!)')
 async def files_list():
     async def rfiles(sftp, ssh):
         return await service.files_list(sftp=sftp)

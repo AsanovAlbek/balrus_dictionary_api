@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 from fastapi_mail import ConnectionConfig, FastMail, MessageSchema, MessageType
-from fastapi import status
+from fastapi import status, BackgroundTasks
 from sqlalchemy.ext.asyncio import AsyncSession
 from auth import service as auth_service
 from mail.schema import EmailSchema
@@ -30,7 +30,7 @@ config = ConnectionConfig(
 
 mailer = FastMail(config=config)
 
-async def send_email_message(email: str, template: str):
+async def send_email_message(email: str, template: str, background_tasks: BackgroundTasks):
     message = MessageSchema(
         subject="Почтовый сервис КБНЦ РАН",
         recipients=[email],
@@ -39,13 +39,13 @@ async def send_email_message(email: str, template: str):
     )
 
     try:
-        await mailer.send_message(message)
+        background_tasks.add_task(mailer.send_message, message)
         return True
     except Exception as e:
         print(e)
-        raise e
+        return False
     
-async def send_activation_code(email: str, session: AsyncSession):
+async def send_activation_code(email: str, session: AsyncSession, background_tasks: BackgroundTasks):
     code = await auth_service.create_reset_password_code(email, session)
     user = await auth_service.get_user_by_email(email, session)
     username: str = user.name if user else "дорогой пользователь!"
@@ -57,7 +57,7 @@ async def send_activation_code(email: str, session: AsyncSession):
             </body>
         </html>
     """
-    if await send_email_message(email, template):
+    if await send_email_message(email, template, background_tasks):
         return JSONResponse(
             content={"success": True, "message": "Код успешно отправлен на почту"}, 
             status_code=status.HTTP_200_OK
@@ -67,7 +67,7 @@ async def send_activation_code(email: str, session: AsyncSession):
         status_code=status.HTTP_500_INTERNAL_SERVER_ERROR
     )
 
-async def send_reset_password_code(email: str, session: AsyncSession):
+async def send_reset_password_code(email: str, session: AsyncSession, background_tasks: BackgroundTasks):
     code = await auth_service.create_reset_password_code(email, session)
     user = await auth_service.get_user_by_email(email, session)
     username: str = user.name if user else "дорогой пользователь!"
@@ -81,7 +81,7 @@ async def send_reset_password_code(email: str, session: AsyncSession):
         </body>
     </html>
     """
-    if await send_email_message(email, template):
+    if await send_email_message(email, template, background_tasks):
         return JSONResponse(
             content={"success": True, "message": "Код успешно отправлен на почту"},
             status_code=status.HTTP_200_OK
