@@ -56,9 +56,12 @@ async def update_word(word: schema.Word, session: AsyncSession):
 
 async def delete_word(word_id: int, session: AsyncSession):
     db_word = await word_by_id(id=word_id, session=session)
-    session.delete(db_word)
+    await session.delete(db_word)
     await utils.try_commit(session, on_error=utils.handle_internal_error)
-    await files_router.delete_file(file_path=db_word.audio_path)
+    try:
+        await files_router.delete_file(file_path=db_word.audio_path)
+    except HTTPException as http_exception:
+        print(http_exception)
     return JSONResponse(
         status_code=status.HTTP_200_OK,
         content={

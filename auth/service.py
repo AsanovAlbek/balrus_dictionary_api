@@ -13,6 +13,7 @@ from sqlalchemy import select
 import random
 import utils
 from starlette.responses import JSONResponse
+import logging
 
 load_dotenv()
 ACCESS_SECRET = os.getenv("ACCESS_TOKEN_SECRET")
@@ -79,7 +80,11 @@ def verify_password(password: str, hashed_password: str) -> bool:
 
 async def authenticate_user(email: str, password: str, session: AsyncSession):
     user = await get_user_by_email(email=email, session=session)
-    if not user and not verify_password(password, user.password):
+    if not user:
+        logging.debug('User check failed')
+        return None
+    if not verify_password(password, user.password):
+        logging.debug('User check failed')
         return None
     return user
 
@@ -169,24 +174,50 @@ async def get_current_user(token: str = Depends(oauth2_scheme), session: AsyncSe
     try:
         payload = jwt.decode(token, ACCESS_SECRET, algorithms=[ALGORITHM])
         user_id = payload.get("id")
+        logging.info(f"User id = {user_id}")
         if not user_id:
             raise creditionals_exception
     except jwt.InvalidTokenError as jwte:
         raise creditionals_exception
     user = await get_user_by_id(user_id=user_id, session=session)
     if not user:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail='Пользователь не найден')
+        raise creditionals_exception
     return schema.User(
         id=user.id,
         name=user.name,
         email=user.email,
-        imei=user.imei
+        imei=user.imei,
+        is_active=user.is_active,
+        is_admin=user.is_admin
     )
 
 
 def generate_code(digits_count: int = 6):
     return str(random.randint(10 ** (digits_count - 1), 10 ** digits_count - 1))
 
+async def create_acivation(email: str, session: AsyncSession):
+    user = await get_user_by_email(email, session)
+    if not user:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f'Пользователь не найден')
+    if user.is_active:
+        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail=f'Пользователь уже активирован')
+    code = generate_code()
+    check = await session.execute(select(model.Activation).filter_by(user_email = email))
+    activation = check.scalars().first()
+
+    if activation:
+        await session.delete(activation)
+        await utils.try_commit(session, on_error=utils.handle_internal_error)
+
+    new_activation = model.Activation(
+        user_email = email,
+        code = code,
+        expiration_date = datetime.now() + timedelta(minutes=10)
+    )
+    session.add(new_activation)
+    await utils.try_commit(session, on_error=utils.handle_internal_error)
+
+    return code
 
 async def create_reset_password_code(email: str, session: AsyncSession):
     user = await get_user_by_email(email=email, session=session)
@@ -216,6 +247,43 @@ async def create_reset_password_code(email: str, session: AsyncSession):
     session.add(new_code)
     await utils.try_commit(session=session)
     return code
+
+async def confirm_reset_password(email: str, code: str, session: AsyncSession):
+    user = await get_user_by_email(email=email, session=session)
+    if not user:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND, 
+            detail=f"Пользователь с почтой {email} не найден"
+        )
+    reset_res = await session.execute(select(model.Reset).filter_by(user_email=user.email))
+    reset = reset_res.scalars().first()
+    if not reset:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND, 
+            detail="Не найден запрос на восстановление пароля"
+        )
+    
+    if code == reset.code:
+        if reset.expiration_date < datetime.now():
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail="Время действия кода восстановления истекло"
+            )
+    else:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Неверно введён код восстановления"
+        )
+    await session.delete(reset)
+    await utils.try_commit(session=session, on_error=utils.handle_internal_error)
+    return JSONResponse(
+            status_code=status.HTTP_200_OK,
+            content={
+                "message": "Код подтверждения действителен",
+                "success": True
+            }
+        )
+
 
 
 async def change_password(email: str, new_password: str, session: AsyncSession):

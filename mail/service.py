@@ -46,7 +46,7 @@ async def send_email_message(email: str, template: str, background_tasks: Backgr
         return False
     
 async def send_activation_code(email: str, session: AsyncSession, background_tasks: BackgroundTasks):
-    code = await auth_service.create_reset_password_code(email, session)
+    code = await auth_service.create_acivation(email, session)
     user = await auth_service.get_user_by_email(email, session)
     username: str = user.name if user else "дорогой пользователь!"
     template = f"""
