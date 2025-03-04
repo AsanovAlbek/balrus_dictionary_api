@@ -15,7 +15,7 @@ async def add_word(word: schema.Word, session: AsyncSession=Depends(get_async_se
 async def update_word(word: schema.Word, session: AsyncSession=Depends(get_async_session)):
     return await service.update_word(word, session)
 
-@dictionary_router.delete('/remove_word', description='Удалить слово')
+@dictionary_router.delete('/remove_word/{word_id}', description='Удалить слово')
 async def remove_word(word_id: int, session: AsyncSession=Depends(get_async_session)):
     return await service.delete_word(word_id, session)
 

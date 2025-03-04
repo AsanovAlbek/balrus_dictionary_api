@@ -1,0 +1,1932 @@
+2025-02-11 02:17:39,525 - ERROR - {'path': '/auth/jwt/login', 'method': 'POST', 'body': 'Invalid JSON'}
+2025-02-11 02:17:39,525 - ERROR - {'path': '/auth/jwt/login', 'method': 'POST', 'body': 'Invalid JSON'}
+2025-02-11 02:19:21,733 - ERROR - {'path': '/auth/jwt/login', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-02-11 02:19:21,733 - ERROR - {'path': '/auth/jwt/login', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-02-11 02:30:38,411 - ERROR - {'path': '/auth/jwt/login', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-02-11 02:30:38,411 - ERROR - {'path': '/auth/jwt/login', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-02-11 02:32:35,164 - ERROR - {'path': '/auth/jwt/login', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-02-11 02:32:35,164 - ERROR - {'path': '/auth/jwt/login', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-02-11 02:40:10,607 - ERROR - {'path': '/auth/jwt/login', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-02-11 02:40:10,607 - ERROR - {'path': '/auth/jwt/login', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-02-11 02:43:13,050 - ERROR - {'path': '/auth/jwt/login', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-02-11 02:43:13,050 - ERROR - {'path': '/auth/jwt/login', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-02-11 02:43:13,057 - ERROR - Error from handler: 
+    Request json = 
+    Request headers = Headers({'host': '192.168.177.2:8000', 'connection': 'keep-alive', 'content-length': '107', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36', 'accept': 'application/json', 'content-type': 'application/x-www-form-urlencoded', 'origin': 'http://192.168.177.2:8000', 'referer': 'http://192.168.177.2:8000/docs', 'accept-encoding': 'gzip, deflate', 'accept-language': 'ru,en;q=0.9'})
+    Exception = 'NoneType' object is not callable
+2025-02-11 02:43:13,057 - ERROR - Error from handler: 
+    Request json = 
+    Request headers = Headers({'host': '192.168.177.2:8000', 'connection': 'keep-alive', 'content-length': '107', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36', 'accept': 'application/json', 'content-type': 'application/x-www-form-urlencoded', 'origin': 'http://192.168.177.2:8000', 'referer': 'http://192.168.177.2:8000/docs', 'accept-encoding': 'gzip, deflate', 'accept-language': 'ru,en;q=0.9'})
+    Exception = 'NoneType' object is not callable
+2025-02-11 02:47:24,796 - ERROR - {'path': '/auth/jwt/login', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-02-11 02:47:24,796 - ERROR - {'path': '/auth/jwt/login', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-02-11 02:47:24,799 - ERROR - Error from handler: 
+    Request json = <starlette.requests.Request object at 0x000001B8302D72F0>
+    Request headers = Headers({'host': '192.168.177.2:8000', 'connection': 'keep-alive', 'content-length': '107', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36', 'accept': 'application/json', 'content-type': 'application/x-www-form-urlencoded', 'origin': 'http://192.168.177.2:8000', 'referer': 'http://192.168.177.2:8000/docs', 'accept-encoding': 'gzip, deflate', 'accept-language': 'ru,en;q=0.9'})
+    Exception = 'NoneType' object is not callable
+2025-02-11 02:47:24,799 - ERROR - Error from handler: 
+    Request json = <starlette.requests.Request object at 0x000001B8302D72F0>
+    Request headers = Headers({'host': '192.168.177.2:8000', 'connection': 'keep-alive', 'content-length': '107', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36', 'accept': 'application/json', 'content-type': 'application/x-www-form-urlencoded', 'origin': 'http://192.168.177.2:8000', 'referer': 'http://192.168.177.2:8000/docs', 'accept-encoding': 'gzip, deflate', 'accept-language': 'ru,en;q=0.9'})
+    Exception = 'NoneType' object is not callable
+2025-02-11 02:50:27,696 - ERROR - {'path': '/auth/jwt/login', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-02-11 02:50:27,696 - ERROR - {'path': '/auth/jwt/login', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-02-11 02:51:42,704 - ERROR - {'path': '/auth/jwt/login', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-02-11 02:51:42,704 - ERROR - {'path': '/auth/jwt/login', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-02-11 02:52:19,399 - ERROR - {'path': '/auth/jwt/login', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-02-11 02:52:19,399 - ERROR - {'path': '/auth/jwt/login', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-02-11 02:52:26,994 - INFO - {'path': '/auth/jwt/current_user', 'method': 'GET', 'body': None}
+2025-02-11 02:52:26,994 - INFO - {'path': '/auth/jwt/current_user', 'method': 'GET', 'body': None}
+2025-02-11 02:52:27,160 - INFO - {'path': '/auth/jwt/current_user', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-02-11 02:52:27,160 - INFO - {'path': '/auth/jwt/current_user', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-02-11 15:41:58,202 - INFO - {'path': '/', 'method': 'GET', 'body': None}
+2025-02-11 15:41:58,202 - INFO - {'path': '/', 'method': 'GET', 'body': None}
+2025-02-11 15:41:58,212 - INFO - {'path': '/', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-02-11 15:41:58,212 - INFO - {'path': '/', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-02-11 15:41:58,446 - INFO - {'path': '/favicon.ico', 'method': 'GET', 'body': None}
+2025-02-11 15:41:58,446 - INFO - {'path': '/favicon.ico', 'method': 'GET', 'body': None}
+2025-02-11 15:41:58,450 - INFO - {'path': '/favicon.ico', 'method': 'GET', 'body': None, 'status_code': 404}
+2025-02-11 15:41:58,450 - INFO - {'path': '/favicon.ico', 'method': 'GET', 'body': None, 'status_code': 404}
+2025-02-11 15:42:01,466 - INFO - {'path': '/docs', 'method': 'GET', 'body': None}
+2025-02-11 15:42:01,466 - INFO - {'path': '/docs', 'method': 'GET', 'body': None}
+2025-02-11 15:42:01,467 - INFO - {'path': '/docs', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-02-11 15:42:01,467 - INFO - {'path': '/docs', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-02-11 15:42:01,669 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None}
+2025-02-11 15:42:01,669 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None}
+2025-02-11 15:42:01,763 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-02-11 15:42:01,763 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-02-11 15:42:03,783 - INFO - {'path': '/docs', 'method': 'GET', 'body': None}
+2025-02-11 15:42:03,783 - INFO - {'path': '/docs', 'method': 'GET', 'body': None}
+2025-02-11 15:42:03,785 - INFO - {'path': '/docs', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-02-11 15:42:03,785 - INFO - {'path': '/docs', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-02-11 15:42:03,976 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None}
+2025-02-11 15:42:03,976 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None}
+2025-02-11 15:42:03,977 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-02-11 15:42:03,977 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-02-11 15:42:09,442 - INFO - {'path': '/auth/jwt/current_user', 'method': 'GET', 'body': None}
+2025-02-11 15:42:09,442 - INFO - {'path': '/auth/jwt/current_user', 'method': 'GET', 'body': None}
+2025-02-11 15:42:09,445 - INFO - {'path': '/auth/jwt/current_user', 'method': 'GET', 'body': None, 'status_code': 401}
+2025-02-11 15:42:09,445 - INFO - {'path': '/auth/jwt/current_user', 'method': 'GET', 'body': None, 'status_code': 401}
+2025-02-11 15:42:21,110 - ERROR - {'path': '/auth/jwt/login', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-02-11 15:42:21,110 - ERROR - {'path': '/auth/jwt/login', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-02-11 15:42:25,477 - INFO - {'path': '/auth/jwt/current_user', 'method': 'GET', 'body': None}
+2025-02-11 15:42:25,477 - INFO - {'path': '/auth/jwt/current_user', 'method': 'GET', 'body': None}
+2025-02-11 15:42:25,577 - INFO - {'path': '/auth/jwt/current_user', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-02-11 15:42:25,577 - INFO - {'path': '/auth/jwt/current_user', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-02-11 15:42:32,963 - ERROR - {'path': '/mail/get_activation_code', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-02-11 15:42:32,963 - ERROR - {'path': '/mail/get_activation_code', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-02-11 15:45:00,801 - INFO - {'path': '/auth/jwt/current_user', 'method': 'GET', 'body': None}
+2025-02-11 15:45:00,801 - INFO - {'path': '/auth/jwt/current_user', 'method': 'GET', 'body': None}
+2025-02-11 15:45:00,887 - INFO - {'path': '/auth/jwt/current_user', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-02-11 15:45:00,887 - INFO - {'path': '/auth/jwt/current_user', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-02-11 15:46:46,753 - INFO - {'path': '/auth/jwt/current_user', 'method': 'GET', 'body': None}
+2025-02-11 15:46:46,753 - INFO - {'path': '/auth/jwt/current_user', 'method': 'GET', 'body': None}
+2025-02-11 15:46:46,864 - INFO - {'path': '/auth/jwt/current_user', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-02-11 15:46:46,864 - INFO - {'path': '/auth/jwt/current_user', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-02-11 15:46:55,717 - INFO - {'path': '/auth/jwt/current_user', 'method': 'GET', 'body': None}
+2025-02-11 15:46:55,717 - INFO - {'path': '/auth/jwt/current_user', 'method': 'GET', 'body': None}
+2025-02-11 15:46:55,723 - INFO - {'path': '/auth/jwt/current_user', 'method': 'GET', 'body': None, 'status_code': 401}
+2025-02-11 15:46:55,723 - INFO - {'path': '/auth/jwt/current_user', 'method': 'GET', 'body': None, 'status_code': 401}
+2025-03-03 01:04:11,802 - INFO - {'path': '/', 'method': 'GET', 'body': None}
+2025-03-03 01:04:11,802 - INFO - {'path': '/', 'method': 'GET', 'body': None}
+2025-03-03 01:04:11,807 - INFO - {'path': '/', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:04:11,807 - INFO - {'path': '/', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:04:11,972 - INFO - {'path': '/favicon.ico', 'method': 'GET', 'body': None}
+2025-03-03 01:04:11,972 - INFO - {'path': '/favicon.ico', 'method': 'GET', 'body': None}
+2025-03-03 01:04:11,975 - INFO - {'path': '/favicon.ico', 'method': 'GET', 'body': None, 'status_code': 404}
+2025-03-03 01:04:11,975 - INFO - {'path': '/favicon.ico', 'method': 'GET', 'body': None, 'status_code': 404}
+2025-03-03 01:04:17,502 - INFO - {'path': '/docs', 'method': 'GET', 'body': None}
+2025-03-03 01:04:17,502 - INFO - {'path': '/docs', 'method': 'GET', 'body': None}
+2025-03-03 01:04:17,503 - INFO - {'path': '/docs', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:04:17,503 - INFO - {'path': '/docs', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:04:18,537 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None}
+2025-03-03 01:04:18,537 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None}
+2025-03-03 01:04:18,668 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:04:18,668 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:17:37,063 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 01:17:37,063 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 01:17:38,459 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:17:38,459 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:17:38,726 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 01:17:38,726 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 01:17:39,001 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:17:39,001 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:19:51,677 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 01:19:51,677 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 01:19:52,115 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:19:52,115 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:19:52,708 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 01:19:52,708 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 01:19:52,986 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:19:52,986 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:19:58,199 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'word': {'id': 0, 'name': 'rw', 'meaning': '<p>sa</p>\n', 'audio_url': '', 'audio_path': ''}}}
+2025-03-03 01:19:58,199 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'word': {'id': 0, 'name': 'rw', 'meaning': '<p>sa</p>\n', 'audio_url': '', 'audio_path': ''}}}
+2025-03-03 01:19:58,226 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'word': {'id': 0, 'name': 'rw', 'meaning': '<p>sa</p>\n', 'audio_url': '', 'audio_path': ''}}, 'status_code': 422}
+2025-03-03 01:19:58,226 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'word': {'id': 0, 'name': 'rw', 'meaning': '<p>sa</p>\n', 'audio_url': '', 'audio_path': ''}}, 'status_code': 422}
+2025-03-03 01:19:58,647 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 01:19:58,647 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 01:19:59,090 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:19:59,090 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:19:59,159 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 01:19:59,159 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 01:19:59,422 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:19:59,422 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:24:08,606 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 01:24:08,606 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 01:24:09,060 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:24:09,060 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:24:09,263 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 01:24:09,263 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 01:24:09,526 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:24:09,526 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:24:13,191 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 01:24:13,191 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 01:24:13,618 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:24:13,618 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:24:13,779 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 01:24:13,779 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 01:24:14,042 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:24:14,042 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:24:19,434 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'word': {'id': 0, 'name': 'rrrr', 'meaning': '<p>rrrrr</p>\n', 'audio_url': '', 'audio_path': ''}}}
+2025-03-03 01:24:19,434 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'word': {'id': 0, 'name': 'rrrr', 'meaning': '<p>rrrrr</p>\n', 'audio_url': '', 'audio_path': ''}}}
+2025-03-03 01:24:19,437 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'word': {'id': 0, 'name': 'rrrr', 'meaning': '<p>rrrrr</p>\n', 'audio_url': '', 'audio_path': ''}}, 'status_code': 422}
+2025-03-03 01:24:19,437 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'word': {'id': 0, 'name': 'rrrr', 'meaning': '<p>rrrrr</p>\n', 'audio_url': '', 'audio_path': ''}}, 'status_code': 422}
+2025-03-03 01:24:19,839 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 01:24:19,839 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 01:24:20,283 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:24:20,283 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:24:20,343 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 01:24:20,343 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 01:24:20,614 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:24:20,614 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:27:19,564 - INFO - {'path': '/dictionary/delete_word', 'method': 'DELETE', 'body': None}
+2025-03-03 01:27:19,564 - INFO - {'path': '/dictionary/delete_word', 'method': 'DELETE', 'body': None}
+2025-03-03 01:27:19,566 - INFO - {'path': '/dictionary/delete_word', 'method': 'DELETE', 'body': None, 'status_code': 404}
+2025-03-03 01:27:19,566 - INFO - {'path': '/dictionary/delete_word', 'method': 'DELETE', 'body': None, 'status_code': 404}
+2025-03-03 01:27:19,686 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 01:27:19,686 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 01:27:20,126 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:27:20,126 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:27:20,197 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 01:27:20,197 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 01:27:20,463 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 01:27:20,463 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:05:25,955 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:05:25,955 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:05:26,609 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:05:26,609 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:05:26,876 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:05:26,876 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:05:27,056 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:05:27,056 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:08:18,103 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:08:18,103 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:08:18,414 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:08:18,414 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:08:19,054 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:08:19,054 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:08:19,232 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:08:19,232 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:08:26,278 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'word': {'id': 0, 'name': 'fuyh', 'meaning': '<p>kkj</p>\n', 'audio_url': '', 'audio_path': ''}}}
+2025-03-03 16:08:26,278 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'word': {'id': 0, 'name': 'fuyh', 'meaning': '<p>kkj</p>\n', 'audio_url': '', 'audio_path': ''}}}
+2025-03-03 16:08:26,309 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'word': {'id': 0, 'name': 'fuyh', 'meaning': '<p>kkj</p>\n', 'audio_url': '', 'audio_path': ''}}, 'status_code': 422}
+2025-03-03 16:08:26,309 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'word': {'id': 0, 'name': 'fuyh', 'meaning': '<p>kkj</p>\n', 'audio_url': '', 'audio_path': ''}}, 'status_code': 422}
+2025-03-03 16:08:26,530 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:08:26,530 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:08:26,824 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:08:26,824 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:08:26,886 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:08:26,886 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:08:27,026 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:08:27,026 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:17:36,933 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:17:36,933 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:17:37,299 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:17:37,299 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:17:37,487 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:17:37,487 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:17:37,674 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:17:37,674 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:17:41,124 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:17:41,124 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:17:41,445 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:17:41,445 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:17:42,099 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:17:42,099 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:17:42,519 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:17:42,519 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:17:50,515 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'id': 0, 'name': 'iiooi', 'meaning': '<p>ojoijoi</p>\n', 'audio_url': '', 'audio_path': ''}}
+2025-03-03 16:17:50,515 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'id': 0, 'name': 'iiooi', 'meaning': '<p>ojoijoi</p>\n', 'audio_url': '', 'audio_path': ''}}
+2025-03-03 16:17:50,613 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'id': 0, 'name': 'iiooi', 'meaning': '<p>ojoijoi</p>\n', 'audio_url': '', 'audio_path': ''}, 'status_code': 200}
+2025-03-03 16:17:50,613 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'id': 0, 'name': 'iiooi', 'meaning': '<p>ojoijoi</p>\n', 'audio_url': '', 'audio_path': ''}, 'status_code': 200}
+2025-03-03 16:17:50,800 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:17:50,800 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:17:50,805 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:17:50,805 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:17:51,516 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:17:51,516 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:17:51,588 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:17:51,588 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:17:52,005 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:17:52,005 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:17:52,117 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:17:52,117 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:17:52,968 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:17:52,968 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:17:53,144 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:17:53,144 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:17:58,515 - INFO - {'path': '/dictionary/remove_word', 'method': 'DELETE', 'body': None}
+2025-03-03 16:17:58,515 - INFO - {'path': '/dictionary/remove_word', 'method': 'DELETE', 'body': None}
+2025-03-03 16:17:58,524 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:17:58,524 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:17:58,527 - INFO - {'path': '/dictionary/remove_word', 'method': 'DELETE', 'body': None, 'status_code': 422}
+2025-03-03 16:17:58,527 - INFO - {'path': '/dictionary/remove_word', 'method': 'DELETE', 'body': None, 'status_code': 422}
+2025-03-03 16:17:59,348 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:17:59,348 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:17:59,411 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:17:59,411 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:17:59,582 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:17:59,582 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:25:12,462 - INFO - {'path': '/docs', 'method': 'GET', 'body': None}
+2025-03-03 16:25:12,462 - INFO - {'path': '/docs', 'method': 'GET', 'body': None}
+2025-03-03 16:25:12,465 - INFO - {'path': '/docs', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:25:12,465 - INFO - {'path': '/docs', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:25:12,756 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None}
+2025-03-03 16:25:12,756 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None}
+2025-03-03 16:25:12,839 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:25:12,839 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:26:12,738 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:26:12,738 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:26:13,311 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:26:13,311 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:26:13,519 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:26:13,519 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:26:13,693 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:26:13,693 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:26:18,875 - INFO - {'path': '/dictionary/remove_word', 'method': 'DELETE', 'body': None}
+2025-03-03 16:26:18,875 - INFO - {'path': '/dictionary/remove_word', 'method': 'DELETE', 'body': None}
+2025-03-03 16:26:18,877 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:26:18,877 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:26:18,880 - INFO - {'path': '/dictionary/remove_word', 'method': 'DELETE', 'body': None, 'status_code': 404}
+2025-03-03 16:26:18,880 - INFO - {'path': '/dictionary/remove_word', 'method': 'DELETE', 'body': None, 'status_code': 404}
+2025-03-03 16:26:19,137 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:26:19,137 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:26:19,208 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:26:19,208 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:26:19,402 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:26:19,402 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:27:24,288 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 16:27:24,288 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 16:27:24,292 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:27:24,292 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:27:24,377 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:27:24,377 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:27:24,908 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:27:24,908 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:27:25,369 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:27:25,369 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:27:25,594 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:27:25,594 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:28:36,451 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:28:36,451 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:28:36,732 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:28:36,732 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:28:36,921 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:28:36,921 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:28:37,106 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:28:37,106 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:28:43,613 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 16:28:43,613 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 16:28:43,617 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:28:43,617 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:28:43,697 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:28:43,697 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:28:43,894 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:28:43,894 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:28:44,753 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:28:44,753 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:28:44,920 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:28:44,920 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:28:50,672 - INFO - {'path': '/dictionary/update_word', 'method': 'POST', 'body': {'id': 28579, 'name': 'bonk', 'meaning': '<p>ojoijoi</p>\n', 'audio_url': '', 'audio_path': ''}}
+2025-03-03 16:28:50,672 - INFO - {'path': '/dictionary/update_word', 'method': 'POST', 'body': {'id': 28579, 'name': 'bonk', 'meaning': '<p>ojoijoi</p>\n', 'audio_url': '', 'audio_path': ''}}
+2025-03-03 16:28:50,803 - INFO - {'path': '/dictionary/update_word', 'method': 'POST', 'body': {'id': 28579, 'name': 'bonk', 'meaning': '<p>ojoijoi</p>\n', 'audio_url': '', 'audio_path': ''}, 'status_code': 200}
+2025-03-03 16:28:50,803 - INFO - {'path': '/dictionary/update_word', 'method': 'POST', 'body': {'id': 28579, 'name': 'bonk', 'meaning': '<p>ojoijoi</p>\n', 'audio_url': '', 'audio_path': ''}, 'status_code': 200}
+2025-03-03 16:28:50,986 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:28:50,986 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:28:50,990 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:28:50,990 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:28:51,312 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:28:51,312 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:28:51,337 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:28:51,337 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:28:51,380 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:28:51,380 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:28:51,418 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:28:51,418 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:28:51,501 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:28:51,501 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:28:51,587 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:28:51,587 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:28:54,640 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 16:28:54,640 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 16:28:54,645 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:28:54,645 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:28:54,807 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:28:54,807 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:28:55,050 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:28:55,050 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:28:55,107 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:28:55,107 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:28:55,300 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:28:55,300 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:28:58,133 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:28:58,133 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:28:58,594 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:28:58,594 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:28:58,661 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:28:58,661 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:28:58,848 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:28:58,848 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:29:02,879 - INFO - {'path': '/dictionary/remove_word', 'method': 'DELETE', 'body': None}
+2025-03-03 16:29:02,879 - INFO - {'path': '/dictionary/remove_word', 'method': 'DELETE', 'body': None}
+2025-03-03 16:29:02,881 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:29:02,881 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:29:02,884 - INFO - {'path': '/dictionary/remove_word', 'method': 'DELETE', 'body': None, 'status_code': 404}
+2025-03-03 16:29:02,884 - INFO - {'path': '/dictionary/remove_word', 'method': 'DELETE', 'body': None, 'status_code': 404}
+2025-03-03 16:29:03,256 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:29:03,256 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:29:03,310 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:29:03,310 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:29:03,483 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:29:03,483 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:33:22,466 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:33:22,466 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:33:22,903 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:33:22,903 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:33:23,893 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:33:23,893 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:33:24,067 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:33:24,067 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:33:31,396 - INFO - {'path': '/dictionary/remove_word/{word_id}', 'method': 'DELETE', 'body': None}
+2025-03-03 16:33:31,396 - INFO - {'path': '/dictionary/remove_word/{word_id}', 'method': 'DELETE', 'body': None}
+2025-03-03 16:33:31,399 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:33:31,399 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:33:31,403 - INFO - {'path': '/dictionary/remove_word/{word_id}', 'method': 'DELETE', 'body': None, 'status_code': 422}
+2025-03-03 16:33:31,403 - INFO - {'path': '/dictionary/remove_word/{word_id}', 'method': 'DELETE', 'body': None, 'status_code': 422}
+2025-03-03 16:33:31,677 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:33:31,677 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:33:31,753 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:33:31,753 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:33:31,936 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:33:31,936 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:37:56,947 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:37:56,947 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:37:57,232 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:37:57,232 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:37:57,426 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:37:57,426 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:37:57,623 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:37:57,623 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:38:03,199 - INFO - {'path': '/dictionary/remove_word/28579', 'method': 'DELETE', 'body': None}
+2025-03-03 16:38:03,199 - INFO - {'path': '/dictionary/remove_word/28579', 'method': 'DELETE', 'body': None}
+2025-03-03 16:38:03,214 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:38:03,214 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:38:05,057 - INFO - {'path': '/dictionary/remove_word/28579', 'method': 'DELETE', 'body': None, 'status_code': 200}
+2025-03-03 16:38:05,057 - INFO - {'path': '/dictionary/remove_word/28579', 'method': 'DELETE', 'body': None, 'status_code': 200}
+2025-03-03 16:38:05,150 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:38:05,150 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:38:05,219 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:38:05,219 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:38:05,472 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:38:05,472 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:40:35,036 - INFO - {'path': '/dictionary/remove_word/28579', 'method': 'DELETE', 'body': None}
+2025-03-03 16:40:35,036 - INFO - {'path': '/dictionary/remove_word/28579', 'method': 'DELETE', 'body': None}
+2025-03-03 16:40:35,046 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:40:35,046 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:40:35,467 - INFO - {'path': '/dictionary/remove_word/28579', 'method': 'DELETE', 'body': None, 'status_code': 404}
+2025-03-03 16:40:35,467 - INFO - {'path': '/dictionary/remove_word/28579', 'method': 'DELETE', 'body': None, 'status_code': 404}
+2025-03-03 16:40:35,637 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:40:35,637 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:40:35,703 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:40:35,703 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:40:35,888 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:40:35,888 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:40:44,485 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 16:40:44,485 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 16:40:44,488 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:40:44,488 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:40:44,796 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:40:44,796 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:40:45,003 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:40:45,003 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:40:45,729 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:40:45,729 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:40:45,902 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:40:45,902 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:40:51,663 - INFO - {'path': '/dictionary/remove_word/28578', 'method': 'DELETE', 'body': None}
+2025-03-03 16:40:51,663 - INFO - {'path': '/dictionary/remove_word/28578', 'method': 'DELETE', 'body': None}
+2025-03-03 16:40:51,785 - INFO - {'path': '/dictionary/remove_word/28578', 'method': 'DELETE', 'body': None, 'status_code': 200}
+2025-03-03 16:40:51,785 - INFO - {'path': '/dictionary/remove_word/28578', 'method': 'DELETE', 'body': None, 'status_code': 200}
+2025-03-03 16:43:56,693 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:43:56,693 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:43:56,944 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:43:56,944 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:43:57,125 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:43:57,125 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:43:57,297 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:43:57,297 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:44:15,300 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:44:15,300 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:44:15,740 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:44:15,740 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:44:16,161 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:44:16,161 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:44:16,367 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:44:16,367 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:44:22,111 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'id': 0, 'name': 'rererer', 'meaning': '\n', 'audio_url': '', 'audio_path': ''}}
+2025-03-03 16:44:22,111 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'id': 0, 'name': 'rererer', 'meaning': '\n', 'audio_url': '', 'audio_path': ''}}
+2025-03-03 16:44:22,201 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'id': 0, 'name': 'rererer', 'meaning': '\n', 'audio_url': '', 'audio_path': ''}, 'status_code': 200}
+2025-03-03 16:44:22,201 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'id': 0, 'name': 'rererer', 'meaning': '\n', 'audio_url': '', 'audio_path': ''}, 'status_code': 200}
+2025-03-03 16:44:22,372 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:44:22,372 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:44:22,376 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:44:22,376 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:44:22,643 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:44:22,643 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:44:22,668 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:44:22,668 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:44:22,721 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:44:22,721 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:44:22,759 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:44:22,759 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:44:22,887 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:44:22,887 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:44:22,939 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:44:22,939 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:44:25,535 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 16:44:25,535 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 16:44:25,538 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:44:25,538 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:44:25,610 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:44:25,610 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:44:25,856 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:44:25,856 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:44:25,906 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:44:25,906 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:44:26,075 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:44:26,075 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:44:28,894 - INFO - {'path': '/dictionary/remove_word/28580', 'method': 'DELETE', 'body': None}
+2025-03-03 16:44:28,894 - INFO - {'path': '/dictionary/remove_word/28580', 'method': 'DELETE', 'body': None}
+2025-03-03 16:44:29,003 - INFO - {'path': '/dictionary/remove_word/28580', 'method': 'DELETE', 'body': None, 'status_code': 200}
+2025-03-03 16:44:29,003 - INFO - {'path': '/dictionary/remove_word/28580', 'method': 'DELETE', 'body': None, 'status_code': 200}
+2025-03-03 16:46:49,584 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:46:49,584 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:46:49,830 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:46:49,830 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:46:50,000 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:46:50,000 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:46:50,177 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:46:50,177 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:47:02,046 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:47:02,046 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:47:02,295 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:47:02,295 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:47:02,354 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:47:02,354 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:47:02,528 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:47:02,528 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:47:06,794 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'id': 0, 'name': 'ewkrpow', 'meaning': '\n', 'audio_url': '', 'audio_path': ''}}
+2025-03-03 16:47:06,794 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'id': 0, 'name': 'ewkrpow', 'meaning': '\n', 'audio_url': '', 'audio_path': ''}}
+2025-03-03 16:47:06,882 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'id': 0, 'name': 'ewkrpow', 'meaning': '\n', 'audio_url': '', 'audio_path': ''}, 'status_code': 200}
+2025-03-03 16:47:06,882 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'id': 0, 'name': 'ewkrpow', 'meaning': '\n', 'audio_url': '', 'audio_path': ''}, 'status_code': 200}
+2025-03-03 16:47:07,073 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:47:07,073 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:47:07,077 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:47:07,077 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:47:07,421 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:47:07,421 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:47:07,462 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:47:07,462 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:47:07,473 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:47:07,473 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:47:07,521 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:47:07,521 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:47:07,688 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:47:07,688 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:47:07,715 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:47:07,715 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:47:09,699 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 16:47:09,699 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 16:47:09,701 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:47:09,701 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:47:10,146 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:47:10,146 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:47:10,353 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:47:10,353 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:47:10,404 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:47:10,404 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:47:10,696 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:47:10,696 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:47:13,926 - INFO - {'path': '/dictionary/remove_word/28581', 'method': 'DELETE', 'body': None}
+2025-03-03 16:47:13,926 - INFO - {'path': '/dictionary/remove_word/28581', 'method': 'DELETE', 'body': None}
+2025-03-03 16:47:14,033 - INFO - {'path': '/dictionary/remove_word/28581', 'method': 'DELETE', 'body': None, 'status_code': 200}
+2025-03-03 16:47:14,033 - INFO - {'path': '/dictionary/remove_word/28581', 'method': 'DELETE', 'body': None, 'status_code': 200}
+2025-03-03 16:50:48,628 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:50:48,628 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:50:48,928 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:50:48,928 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:50:49,130 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:50:49,130 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:50:49,295 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:50:49,295 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:51:17,208 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:51:17,208 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:51:17,499 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:51:17,499 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:51:18,154 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:51:18,154 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:51:18,332 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:51:18,332 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:51:27,389 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'id': 0, 'name': 'lksf', 'meaning': '<p>lskadaksd</p>\n', 'audio_url': '', 'audio_path': ''}}
+2025-03-03 16:51:27,389 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'id': 0, 'name': 'lksf', 'meaning': '<p>lskadaksd</p>\n', 'audio_url': '', 'audio_path': ''}}
+2025-03-03 16:51:27,468 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'id': 0, 'name': 'lksf', 'meaning': '<p>lskadaksd</p>\n', 'audio_url': '', 'audio_path': ''}, 'status_code': 200}
+2025-03-03 16:51:27,468 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'id': 0, 'name': 'lksf', 'meaning': '<p>lskadaksd</p>\n', 'audio_url': '', 'audio_path': ''}, 'status_code': 200}
+2025-03-03 16:51:27,666 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:51:27,666 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:51:27,670 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:51:27,670 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:51:27,929 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:51:27,929 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:51:27,954 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:51:27,954 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:51:28,007 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:51:28,007 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:51:28,047 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:51:28,047 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:51:28,177 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:51:28,177 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:51:28,223 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:51:28,223 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:51:30,081 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 16:51:30,081 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 16:51:30,084 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:51:30,084 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 16:51:30,154 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:51:30,154 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:51:30,342 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:51:30,342 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:51:30,441 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:51:30,441 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 16:51:30,608 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:51:30,608 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 16:51:34,036 - INFO - {'path': '/dictionary/remove_word/28582', 'method': 'DELETE', 'body': None}
+2025-03-03 16:51:34,036 - INFO - {'path': '/dictionary/remove_word/28582', 'method': 'DELETE', 'body': None}
+2025-03-03 16:51:34,134 - INFO - {'path': '/dictionary/remove_word/28582', 'method': 'DELETE', 'body': None, 'status_code': 200}
+2025-03-03 16:51:34,134 - INFO - {'path': '/dictionary/remove_word/28582', 'method': 'DELETE', 'body': None, 'status_code': 200}
+2025-03-03 17:11:20,232 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:11:20,232 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:11:20,244 - ERROR - Unexpected error: (pymysql.err.OperationalError) (2013, 'Lost connection to MySQL server during query ([WinError 10054] ”даленный хост принудительно разорвал существующее подключение)')
+[SQL: SELECT balk.id, balk.`Name`, balk.`TOLK`, balk.audio_url, balk.audio_path 
+FROM balk 
+WHERE balk.`Name` LIKE %s ORDER BY balk.`Name` 
+ LIMIT %s, %s]
+[parameters: ('%', 0, 100)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+Traceback (most recent call last):
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 657, in _read_bytes
+    data = await self._reader.readexactly(num_bytes)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ill_be_back\AppData\Local\Programs\Python\Python312\Lib\asyncio\streams.py", line 741, in readexactly
+    raise self._exception
+  File "C:\Users\Ill_be_back\AppData\Local\Programs\Python\Python312\Lib\asyncio\selector_events.py", line 1013, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] ”даленный хост принудительно разорвал существующее подключение
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 95, in execute
+    return self.await_(self._execute_async(operation, parameters))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 104, in _execute_async
+    result = await self._cursor.execute(operation, parameters)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\cursors.py", line 239, in execute
+    await self._query(query)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\cursors.py", line 457, in _query
+    await conn.query(q)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 469, in query
+    await self._read_query_result(unbuffered=unbuffered)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 683, in _read_query_result
+    await result.read()
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 1164, in read
+    first_packet = await self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 609, in _read_packet
+    packet_header = await self._read_bytes(4)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 665, in _read_bytes
+    raise OperationalError(CR.CR_SERVER_LOST, msg) from e
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query ([WinError 10054] ”даленный хост принудительно разорвал существующее подключение)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Ill_be_back\Desktop\bal_rus_api\kbnc_logging\logger.py", line 37, in request_log
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\middleware\base.py", line 163, in call_next
+    raise app_exc
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\middleware\base.py", line 149, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\routing.py", line 715, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\routing.py", line 735, in app
+    await route.handle(scope, receive, send)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ill_be_back\Desktop\bal_rus_api\words\router.py", line 29, in get_words
+    return await service.get_words(name, page, size, session)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ill_be_back\Desktop\bal_rus_api\words\service.py", line 82, in get_words
+    result = await session.execute(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\ext\asyncio\session.py", line 461, in execute
+    result = await greenlet_spawn(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 201, in greenlet_spawn
+    result = context.throw(*sys.exc_info())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2362, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2247, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\orm\context.py", line 305, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+           ^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 95, in execute
+    return self.await_(self._execute_async(operation, parameters))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 104, in _execute_async
+    result = await self._cursor.execute(operation, parameters)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\cursors.py", line 239, in execute
+    await self._query(query)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\cursors.py", line 457, in _query
+    await conn.query(q)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 469, in query
+    await self._read_query_result(unbuffered=unbuffered)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 683, in _read_query_result
+    await result.read()
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 1164, in read
+    first_packet = await self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 609, in _read_packet
+    packet_header = await self._read_bytes(4)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 665, in _read_bytes
+    raise OperationalError(CR.CR_SERVER_LOST, msg) from e
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2013, 'Lost connection to MySQL server during query ([WinError 10054] ”даленный хост принудительно разорвал существующее подключение)')
+[SQL: SELECT balk.id, balk.`Name`, balk.`TOLK`, balk.audio_url, balk.audio_path 
+FROM balk 
+WHERE balk.`Name` LIKE %s ORDER BY balk.`Name` 
+ LIMIT %s, %s]
+[parameters: ('%', 0, 100)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-03 17:11:20,244 - ERROR - Unexpected error: (pymysql.err.OperationalError) (2013, 'Lost connection to MySQL server during query ([WinError 10054] ”даленный хост принудительно разорвал существующее подключение)')
+[SQL: SELECT balk.id, balk.`Name`, balk.`TOLK`, balk.audio_url, balk.audio_path 
+FROM balk 
+WHERE balk.`Name` LIKE %s ORDER BY balk.`Name` 
+ LIMIT %s, %s]
+[parameters: ('%', 0, 100)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+Traceback (most recent call last):
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 657, in _read_bytes
+    data = await self._reader.readexactly(num_bytes)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ill_be_back\AppData\Local\Programs\Python\Python312\Lib\asyncio\streams.py", line 741, in readexactly
+    raise self._exception
+  File "C:\Users\Ill_be_back\AppData\Local\Programs\Python\Python312\Lib\asyncio\selector_events.py", line 1013, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] ”даленный хост принудительно разорвал существующее подключение
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 95, in execute
+    return self.await_(self._execute_async(operation, parameters))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 104, in _execute_async
+    result = await self._cursor.execute(operation, parameters)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\cursors.py", line 239, in execute
+    await self._query(query)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\cursors.py", line 457, in _query
+    await conn.query(q)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 469, in query
+    await self._read_query_result(unbuffered=unbuffered)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 683, in _read_query_result
+    await result.read()
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 1164, in read
+    first_packet = await self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 609, in _read_packet
+    packet_header = await self._read_bytes(4)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 665, in _read_bytes
+    raise OperationalError(CR.CR_SERVER_LOST, msg) from e
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query ([WinError 10054] ”даленный хост принудительно разорвал существующее подключение)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Ill_be_back\Desktop\bal_rus_api\kbnc_logging\logger.py", line 37, in request_log
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\middleware\base.py", line 163, in call_next
+    raise app_exc
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\middleware\base.py", line 149, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\routing.py", line 715, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\routing.py", line 735, in app
+    await route.handle(scope, receive, send)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ill_be_back\Desktop\bal_rus_api\words\router.py", line 29, in get_words
+    return await service.get_words(name, page, size, session)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ill_be_back\Desktop\bal_rus_api\words\service.py", line 82, in get_words
+    result = await session.execute(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\ext\asyncio\session.py", line 461, in execute
+    result = await greenlet_spawn(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 201, in greenlet_spawn
+    result = context.throw(*sys.exc_info())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2362, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2247, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\orm\context.py", line 305, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+           ^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 95, in execute
+    return self.await_(self._execute_async(operation, parameters))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 104, in _execute_async
+    result = await self._cursor.execute(operation, parameters)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\cursors.py", line 239, in execute
+    await self._query(query)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\cursors.py", line 457, in _query
+    await conn.query(q)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 469, in query
+    await self._read_query_result(unbuffered=unbuffered)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 683, in _read_query_result
+    await result.read()
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 1164, in read
+    first_packet = await self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 609, in _read_packet
+    packet_header = await self._read_bytes(4)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 665, in _read_bytes
+    raise OperationalError(CR.CR_SERVER_LOST, msg) from e
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2013, 'Lost connection to MySQL server during query ([WinError 10054] ”даленный хост принудительно разорвал существующее подключение)')
+[SQL: SELECT balk.id, balk.`Name`, balk.`TOLK`, balk.audio_url, balk.audio_path 
+FROM balk 
+WHERE balk.`Name` LIKE %s ORDER BY balk.`Name` 
+ LIMIT %s, %s]
+[parameters: ('%', 0, 100)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-03 17:11:21,075 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:11:21,075 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:11:21,371 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:11:21,371 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:11:25,121 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:11:25,121 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:11:25,290 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:11:25,290 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:11:25,294 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:11:25,294 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:11:25,409 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:11:25,409 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:11:27,709 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:11:27,709 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:11:27,976 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:11:27,976 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:11:27,981 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:11:27,981 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:11:28,156 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:11:28,156 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:11:28,996 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:11:28,996 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:11:29,266 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:11:29,266 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:11:29,271 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:11:29,271 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:11:29,426 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:11:29,426 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:11:33,251 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'id': 0, 'name': 'aefa', 'meaning': '\n', 'audio_url': '', 'audio_path': ''}}
+2025-03-03 17:11:33,251 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'id': 0, 'name': 'aefa', 'meaning': '\n', 'audio_url': '', 'audio_path': ''}}
+2025-03-03 17:11:33,328 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'id': 0, 'name': 'aefa', 'meaning': '\n', 'audio_url': '', 'audio_path': ''}, 'status_code': 200}
+2025-03-03 17:11:33,328 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'id': 0, 'name': 'aefa', 'meaning': '\n', 'audio_url': '', 'audio_path': ''}, 'status_code': 200}
+2025-03-03 17:11:33,332 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:11:33,332 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:11:33,367 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:11:33,367 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:11:33,615 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:11:33,615 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:11:33,621 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:11:33,621 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:11:33,652 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:11:33,652 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:11:33,660 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:11:33,660 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:11:33,796 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:11:33,796 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:11:33,862 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:11:33,862 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:11:35,277 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 17:11:35,277 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 17:11:35,280 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:11:35,280 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:11:35,357 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:11:35,357 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:11:35,550 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:11:35,550 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:11:35,556 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:11:35,556 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:11:35,731 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:11:35,731 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:11:39,396 - INFO - {'path': '/dictionary/remove_word/28583', 'method': 'DELETE', 'body': None}
+2025-03-03 17:11:39,396 - INFO - {'path': '/dictionary/remove_word/28583', 'method': 'DELETE', 'body': None}
+2025-03-03 17:11:39,502 - INFO - {'path': '/dictionary/remove_word/28583', 'method': 'DELETE', 'body': None, 'status_code': 200}
+2025-03-03 17:11:39,502 - INFO - {'path': '/dictionary/remove_word/28583', 'method': 'DELETE', 'body': None, 'status_code': 200}
+2025-03-03 17:11:51,491 - INFO - {'path': '/dictionary/remove_word/28583', 'method': 'DELETE', 'body': None}
+2025-03-03 17:11:51,491 - INFO - {'path': '/dictionary/remove_word/28583', 'method': 'DELETE', 'body': None}
+2025-03-03 17:11:51,567 - INFO - {'path': '/dictionary/remove_word/28583', 'method': 'DELETE', 'body': None, 'status_code': 404}
+2025-03-03 17:11:51,567 - INFO - {'path': '/dictionary/remove_word/28583', 'method': 'DELETE', 'body': None, 'status_code': 404}
+2025-03-03 17:11:51,598 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:11:51,598 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:11:51,876 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:11:51,876 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:11:51,881 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:11:51,881 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:11:52,055 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:11:52,055 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:14:50,435 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:14:50,435 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:14:51,015 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:14:51,015 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:14:51,020 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:14:51,020 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:14:51,192 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:14:51,192 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:14:58,936 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'id': 0, 'name': 'kopjoi', 'meaning': '\n', 'audio_url': '', 'audio_path': ''}}
+2025-03-03 17:14:58,936 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'id': 0, 'name': 'kopjoi', 'meaning': '\n', 'audio_url': '', 'audio_path': ''}}
+2025-03-03 17:14:59,039 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'id': 0, 'name': 'kopjoi', 'meaning': '\n', 'audio_url': '', 'audio_path': ''}, 'status_code': 200}
+2025-03-03 17:14:59,039 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'id': 0, 'name': 'kopjoi', 'meaning': '\n', 'audio_url': '', 'audio_path': ''}, 'status_code': 200}
+2025-03-03 17:14:59,043 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:14:59,043 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:14:59,087 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:14:59,087 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:14:59,340 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:14:59,340 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:14:59,345 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:14:59,345 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:14:59,533 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:14:59,533 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:14:59,535 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:14:59,535 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:14:59,541 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:14:59,541 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:14:59,717 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:14:59,717 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:01,884 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 17:15:01,884 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 17:15:01,888 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:15:01,888 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:15:01,975 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:01,975 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:02,177 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:02,177 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:02,182 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:15:02,182 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:15:02,357 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:02,357 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:05,073 - INFO - {'path': '/dictionary/remove_word/28584', 'method': 'DELETE', 'body': None}
+2025-03-03 17:15:05,073 - INFO - {'path': '/dictionary/remove_word/28584', 'method': 'DELETE', 'body': None}
+2025-03-03 17:15:05,398 - INFO - {'path': '/dictionary/remove_word/28584', 'method': 'DELETE', 'body': None, 'status_code': 200}
+2025-03-03 17:15:05,398 - INFO - {'path': '/dictionary/remove_word/28584', 'method': 'DELETE', 'body': None, 'status_code': 200}
+2025-03-03 17:15:05,401 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:15:05,401 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:15:05,443 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:15:05,443 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:15:05,888 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:05,888 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:05,893 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:15:05,893 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:15:06,047 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:06,047 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:06,052 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:15:06,052 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:15:06,098 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:06,098 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:06,395 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:06,395 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:13,965 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:15:13,965 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:15:14,241 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:14,241 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:14,246 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:15:14,246 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:15:14,423 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:14,423 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:36,950 - ERROR - Unexpected error: 'utf-8' codec can't decode byte 0xff in position 172: invalid start byte
+Traceback (most recent call last):
+  File "C:\Users\Ill_be_back\Desktop\bal_rus_api\kbnc_logging\logger.py", line 30, in request_log
+    body = await request.json() if is_body_required else None
+           ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\requests.py", line 249, in json
+    self._json = json.loads(body)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\Ill_be_back\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 341, in loads
+    s = s.decode(detect_encoding(s), 'surrogatepass')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 172: invalid start byte
+2025-03-03 17:15:36,950 - ERROR - Unexpected error: 'utf-8' codec can't decode byte 0xff in position 172: invalid start byte
+Traceback (most recent call last):
+  File "C:\Users\Ill_be_back\Desktop\bal_rus_api\kbnc_logging\logger.py", line 30, in request_log
+    body = await request.json() if is_body_required else None
+           ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\requests.py", line 249, in json
+    self._json = json.loads(body)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\Ill_be_back\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 341, in loads
+    s = s.decode(detect_encoding(s), 'surrogatepass')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 172: invalid start byte
+2025-03-03 17:15:38,835 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'id': 0, 'name': 'audio', 'meaning': '\n', 'audio_url': '/balrusapi.kbncran.ru/audio/03-03-2025-17-15-38_05-07-2024-15-46-20_џраххатлы_.mp3', 'audio_path': '/balrusapi.kbncran.ru/audio/03-03-2025-17-15-38_05-07-2024-15-46-20_џраххатлы_.mp3'}}
+2025-03-03 17:15:38,835 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'id': 0, 'name': 'audio', 'meaning': '\n', 'audio_url': '/balrusapi.kbncran.ru/audio/03-03-2025-17-15-38_05-07-2024-15-46-20_џраххатлы_.mp3', 'audio_path': '/balrusapi.kbncran.ru/audio/03-03-2025-17-15-38_05-07-2024-15-46-20_џраххатлы_.mp3'}}
+2025-03-03 17:15:38,916 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'id': 0, 'name': 'audio', 'meaning': '\n', 'audio_url': '/balrusapi.kbncran.ru/audio/03-03-2025-17-15-38_05-07-2024-15-46-20_џраххатлы_.mp3', 'audio_path': '/balrusapi.kbncran.ru/audio/03-03-2025-17-15-38_05-07-2024-15-46-20_џраххатлы_.mp3'}, 'status_code': 200}
+2025-03-03 17:15:38,916 - INFO - {'path': '/dictionary/add_word', 'method': 'POST', 'body': {'id': 0, 'name': 'audio', 'meaning': '\n', 'audio_url': '/balrusapi.kbncran.ru/audio/03-03-2025-17-15-38_05-07-2024-15-46-20_џраххатлы_.mp3', 'audio_path': '/balrusapi.kbncran.ru/audio/03-03-2025-17-15-38_05-07-2024-15-46-20_џраххатлы_.mp3'}, 'status_code': 200}
+2025-03-03 17:15:38,921 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:15:38,921 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:15:38,966 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:15:38,966 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:15:39,215 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:39,215 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:39,221 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:15:39,221 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:15:39,258 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:39,258 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:39,264 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:15:39,264 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:15:39,358 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:39,358 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:39,441 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:39,441 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:40,949 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 17:15:40,949 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 17:15:40,953 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:15:40,953 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:15:41,025 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:41,025 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:41,232 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:41,232 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:41,239 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:15:41,239 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:15:41,409 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:41,409 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:15:53,874 - INFO - {'path': '/media/delete_file', 'method': 'POST', 'body': {'file_path': '/balrusapi.kbncran.ru/audio/03-03-2025-17-15-38_05-07-2024-15-46-20_џраххатлы_.mp3'}}
+2025-03-03 17:15:53,874 - INFO - {'path': '/media/delete_file', 'method': 'POST', 'body': {'file_path': '/balrusapi.kbncran.ru/audio/03-03-2025-17-15-38_05-07-2024-15-46-20_џраххатлы_.mp3'}}
+2025-03-03 17:15:53,877 - INFO - {'path': '/media/delete_file', 'method': 'POST', 'body': {'file_path': '/balrusapi.kbncran.ru/audio/03-03-2025-17-15-38_05-07-2024-15-46-20_џраххатлы_.mp3'}, 'status_code': 422}
+2025-03-03 17:15:53,877 - INFO - {'path': '/media/delete_file', 'method': 'POST', 'body': {'file_path': '/balrusapi.kbncran.ru/audio/03-03-2025-17-15-38_05-07-2024-15-46-20_џраххатлы_.mp3'}, 'status_code': 422}
+2025-03-03 17:15:56,826 - INFO - {'path': '/media/delete_file', 'method': 'POST', 'body': {'file_path': '/balrusapi.kbncran.ru/audio/03-03-2025-17-15-38_05-07-2024-15-46-20_џраххатлы_.mp3'}}
+2025-03-03 17:15:56,826 - INFO - {'path': '/media/delete_file', 'method': 'POST', 'body': {'file_path': '/balrusapi.kbncran.ru/audio/03-03-2025-17-15-38_05-07-2024-15-46-20_џраххатлы_.mp3'}}
+2025-03-03 17:15:56,829 - INFO - {'path': '/media/delete_file', 'method': 'POST', 'body': {'file_path': '/balrusapi.kbncran.ru/audio/03-03-2025-17-15-38_05-07-2024-15-46-20_џраххатлы_.mp3'}, 'status_code': 422}
+2025-03-03 17:15:56,829 - INFO - {'path': '/media/delete_file', 'method': 'POST', 'body': {'file_path': '/balrusapi.kbncran.ru/audio/03-03-2025-17-15-38_05-07-2024-15-46-20_џраххатлы_.mp3'}, 'status_code': 422}
+2025-03-03 17:20:52,750 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:20:52,750 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:20:53,149 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:20:53,149 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:20:53,156 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:20:53,156 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:20:53,335 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:20:53,335 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:21:04,717 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 17:21:04,717 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 17:21:04,721 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:21:04,721 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:21:04,795 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:21:04,795 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:21:04,980 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:21:04,980 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:21:04,986 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:21:04,986 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:21:05,157 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:21:05,157 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:21:06,522 - ERROR - {'path': '/media/delete_file', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-03 17:21:06,522 - ERROR - {'path': '/media/delete_file', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-03 17:41:29,529 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:41:29,529 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:41:30,172 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:41:30,172 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:41:30,181 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:41:30,181 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:41:30,321 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:41:30,321 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:41:54,016 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 17:41:54,016 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 17:41:54,020 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:41:54,020 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:41:54,104 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:41:54,104 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:41:54,415 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:41:54,415 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:41:54,420 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:41:54,420 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:41:54,602 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:41:54,602 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:41:55,730 - ERROR - {'path': '/media/delete_file', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-03 17:41:55,730 - ERROR - {'path': '/media/delete_file', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-03 17:41:59,690 - ERROR - {'path': '/media/delete_file', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-03 17:41:59,690 - ERROR - {'path': '/media/delete_file', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-03 17:50:39,965 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:50:39,965 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:50:40,615 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:50:40,615 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:50:40,625 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:50:40,625 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:50:40,809 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:50:40,809 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:50:42,580 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 17:50:42,580 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 17:50:42,585 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:50:42,585 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 17:50:42,666 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:50:42,666 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:50:42,987 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:50:42,987 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:50:42,992 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:50:42,992 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 17:50:43,170 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:50:43,170 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 17:50:44,346 - ERROR - {'path': '/media/delete_file/balrusapi.kbncran.ru/audio/03-03-2025-17-15-38_05-07-2024-15-46-20_џраххатлы_.mp3', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-03 17:50:44,346 - ERROR - {'path': '/media/delete_file/balrusapi.kbncran.ru/audio/03-03-2025-17-15-38_05-07-2024-15-46-20_џраххатлы_.mp3', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-03 17:50:47,957 - ERROR - {'path': '/media/delete_file/balrusapi.kbncran.ru/audio/03-03-2025-17-15-38_05-07-2024-15-46-20_џраххатлы_.mp3', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-03 17:50:47,957 - ERROR - {'path': '/media/delete_file/balrusapi.kbncran.ru/audio/03-03-2025-17-15-38_05-07-2024-15-46-20_џраххатлы_.mp3', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-03 20:06:27,572 - INFO - {'path': '/docs', 'method': 'GET', 'body': None}
+2025-03-03 20:06:27,572 - INFO - {'path': '/docs', 'method': 'GET', 'body': None}
+2025-03-03 20:06:27,573 - INFO - {'path': '/docs', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:06:27,573 - INFO - {'path': '/docs', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:06:27,712 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None}
+2025-03-03 20:06:27,712 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None}
+2025-03-03 20:06:27,784 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:06:27,784 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:13:41,890 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:13:41,890 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:13:41,904 - ERROR - Unexpected error: (pymysql.err.OperationalError) (2013, 'Lost connection to MySQL server during query ([WinError 10054] ”даленный хост принудительно разорвал существующее подключение)')
+[SQL: SELECT balk.id, balk.`Name`, balk.`TOLK`, balk.audio_url, balk.audio_path 
+FROM balk 
+WHERE balk.`Name` LIKE %s ORDER BY balk.`Name` 
+ LIMIT %s, %s]
+[parameters: ('%', 0, 100)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+Traceback (most recent call last):
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 657, in _read_bytes
+    data = await self._reader.readexactly(num_bytes)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ill_be_back\AppData\Local\Programs\Python\Python312\Lib\asyncio\streams.py", line 741, in readexactly
+    raise self._exception
+  File "C:\Users\Ill_be_back\AppData\Local\Programs\Python\Python312\Lib\asyncio\selector_events.py", line 1013, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] ”даленный хост принудительно разорвал существующее подключение
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 95, in execute
+    return self.await_(self._execute_async(operation, parameters))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 104, in _execute_async
+    result = await self._cursor.execute(operation, parameters)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\cursors.py", line 239, in execute
+    await self._query(query)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\cursors.py", line 457, in _query
+    await conn.query(q)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 469, in query
+    await self._read_query_result(unbuffered=unbuffered)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 683, in _read_query_result
+    await result.read()
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 1164, in read
+    first_packet = await self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 609, in _read_packet
+    packet_header = await self._read_bytes(4)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 665, in _read_bytes
+    raise OperationalError(CR.CR_SERVER_LOST, msg) from e
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query ([WinError 10054] ”даленный хост принудительно разорвал существующее подключение)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Ill_be_back\Desktop\bal_rus_api\kbnc_logging\logger.py", line 37, in request_log
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\middleware\base.py", line 163, in call_next
+    raise app_exc
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\middleware\base.py", line 149, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\routing.py", line 715, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\routing.py", line 735, in app
+    await route.handle(scope, receive, send)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ill_be_back\Desktop\bal_rus_api\words\router.py", line 29, in get_words
+    return await service.get_words(name, page, size, session)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ill_be_back\Desktop\bal_rus_api\words\service.py", line 82, in get_words
+    result = await session.execute(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\ext\asyncio\session.py", line 461, in execute
+    result = await greenlet_spawn(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 201, in greenlet_spawn
+    result = context.throw(*sys.exc_info())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2362, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2247, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\orm\context.py", line 305, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+           ^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 95, in execute
+    return self.await_(self._execute_async(operation, parameters))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 104, in _execute_async
+    result = await self._cursor.execute(operation, parameters)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\cursors.py", line 239, in execute
+    await self._query(query)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\cursors.py", line 457, in _query
+    await conn.query(q)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 469, in query
+    await self._read_query_result(unbuffered=unbuffered)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 683, in _read_query_result
+    await result.read()
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 1164, in read
+    first_packet = await self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 609, in _read_packet
+    packet_header = await self._read_bytes(4)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 665, in _read_bytes
+    raise OperationalError(CR.CR_SERVER_LOST, msg) from e
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2013, 'Lost connection to MySQL server during query ([WinError 10054] ”даленный хост принудительно разорвал существующее подключение)')
+[SQL: SELECT balk.id, balk.`Name`, balk.`TOLK`, balk.audio_url, balk.audio_path 
+FROM balk 
+WHERE balk.`Name` LIKE %s ORDER BY balk.`Name` 
+ LIMIT %s, %s]
+[parameters: ('%', 0, 100)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-03 20:13:41,904 - ERROR - Unexpected error: (pymysql.err.OperationalError) (2013, 'Lost connection to MySQL server during query ([WinError 10054] ”даленный хост принудительно разорвал существующее подключение)')
+[SQL: SELECT balk.id, balk.`Name`, balk.`TOLK`, balk.audio_url, balk.audio_path 
+FROM balk 
+WHERE balk.`Name` LIKE %s ORDER BY balk.`Name` 
+ LIMIT %s, %s]
+[parameters: ('%', 0, 100)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+Traceback (most recent call last):
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 657, in _read_bytes
+    data = await self._reader.readexactly(num_bytes)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ill_be_back\AppData\Local\Programs\Python\Python312\Lib\asyncio\streams.py", line 741, in readexactly
+    raise self._exception
+  File "C:\Users\Ill_be_back\AppData\Local\Programs\Python\Python312\Lib\asyncio\selector_events.py", line 1013, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] ”даленный хост принудительно разорвал существующее подключение
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 95, in execute
+    return self.await_(self._execute_async(operation, parameters))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 104, in _execute_async
+    result = await self._cursor.execute(operation, parameters)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\cursors.py", line 239, in execute
+    await self._query(query)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\cursors.py", line 457, in _query
+    await conn.query(q)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 469, in query
+    await self._read_query_result(unbuffered=unbuffered)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 683, in _read_query_result
+    await result.read()
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 1164, in read
+    first_packet = await self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 609, in _read_packet
+    packet_header = await self._read_bytes(4)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 665, in _read_bytes
+    raise OperationalError(CR.CR_SERVER_LOST, msg) from e
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query ([WinError 10054] ”даленный хост принудительно разорвал существующее подключение)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Ill_be_back\Desktop\bal_rus_api\kbnc_logging\logger.py", line 37, in request_log
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\middleware\base.py", line 163, in call_next
+    raise app_exc
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\middleware\base.py", line 149, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\routing.py", line 715, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\routing.py", line 735, in app
+    await route.handle(scope, receive, send)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ill_be_back\Desktop\bal_rus_api\words\router.py", line 29, in get_words
+    return await service.get_words(name, page, size, session)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ill_be_back\Desktop\bal_rus_api\words\service.py", line 82, in get_words
+    result = await session.execute(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\ext\asyncio\session.py", line 461, in execute
+    result = await greenlet_spawn(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 201, in greenlet_spawn
+    result = context.throw(*sys.exc_info())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2362, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2247, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\orm\context.py", line 305, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+           ^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 95, in execute
+    return self.await_(self._execute_async(operation, parameters))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 104, in _execute_async
+    result = await self._cursor.execute(operation, parameters)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\cursors.py", line 239, in execute
+    await self._query(query)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\cursors.py", line 457, in _query
+    await conn.query(q)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 469, in query
+    await self._read_query_result(unbuffered=unbuffered)
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 683, in _read_query_result
+    await result.read()
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 1164, in read
+    first_packet = await self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 609, in _read_packet
+    packet_header = await self._read_bytes(4)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\aiomysql\connection.py", line 665, in _read_bytes
+    raise OperationalError(CR.CR_SERVER_LOST, msg) from e
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2013, 'Lost connection to MySQL server during query ([WinError 10054] ”даленный хост принудительно разорвал существующее подключение)')
+[SQL: SELECT balk.id, balk.`Name`, balk.`TOLK`, balk.audio_url, balk.audio_path 
+FROM balk 
+WHERE balk.`Name` LIKE %s ORDER BY balk.`Name` 
+ LIMIT %s, %s]
+[parameters: ('%', 0, 100)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-03 20:13:42,729 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:13:42,729 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:13:43,349 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:13:43,349 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:13:45,372 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 20:13:45,372 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 20:13:45,378 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:13:45,378 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:13:45,562 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:13:45,562 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:13:45,887 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:13:45,887 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:13:45,893 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:13:45,893 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:13:46,162 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:13:46,162 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:13:54,466 - ERROR - Unexpected error: 'utf-8' codec can't decode byte 0xff in position 172: invalid start byte
+Traceback (most recent call last):
+  File "C:\Users\Ill_be_back\Desktop\bal_rus_api\kbnc_logging\logger.py", line 30, in request_log
+    body = await request.json() if is_body_required else None
+           ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\requests.py", line 249, in json
+    self._json = json.loads(body)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\Ill_be_back\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 341, in loads
+    s = s.decode(detect_encoding(s), 'surrogatepass')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 172: invalid start byte
+2025-03-03 20:13:54,466 - ERROR - Unexpected error: 'utf-8' codec can't decode byte 0xff in position 172: invalid start byte
+Traceback (most recent call last):
+  File "C:\Users\Ill_be_back\Desktop\bal_rus_api\kbnc_logging\logger.py", line 30, in request_log
+    body = await request.json() if is_body_required else None
+           ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\requests.py", line 249, in json
+    self._json = json.loads(body)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\Ill_be_back\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 341, in loads
+    s = s.decode(detect_encoding(s), 'surrogatepass')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 172: invalid start byte
+2025-03-03 20:13:57,269 - INFO - {'path': '/dictionary/update_word', 'method': 'POST', 'body': {'id': 28585, 'name': 'audio', 'meaning': '\n', 'audio_url': '/balrusapi.kbncran.ru/audio/03-03-2025-20-13-56_05-07-2024-15-46-20_џраххатлы_.mp3', 'audio_path': '/var/www/albek/data/www/balrusapi.kbncran.ru/audio/03-03-2025-20-13-56_05-07-2024-15-46-20_џраххатлы_.mp3'}}
+2025-03-03 20:13:57,269 - INFO - {'path': '/dictionary/update_word', 'method': 'POST', 'body': {'id': 28585, 'name': 'audio', 'meaning': '\n', 'audio_url': '/balrusapi.kbncran.ru/audio/03-03-2025-20-13-56_05-07-2024-15-46-20_џраххатлы_.mp3', 'audio_path': '/var/www/albek/data/www/balrusapi.kbncran.ru/audio/03-03-2025-20-13-56_05-07-2024-15-46-20_џраххатлы_.mp3'}}
+2025-03-03 20:13:57,590 - INFO - {'path': '/dictionary/update_word', 'method': 'POST', 'body': {'id': 28585, 'name': 'audio', 'meaning': '\n', 'audio_url': '/balrusapi.kbncran.ru/audio/03-03-2025-20-13-56_05-07-2024-15-46-20_џраххатлы_.mp3', 'audio_path': '/var/www/albek/data/www/balrusapi.kbncran.ru/audio/03-03-2025-20-13-56_05-07-2024-15-46-20_џраххатлы_.mp3'}, 'status_code': 200}
+2025-03-03 20:13:57,590 - INFO - {'path': '/dictionary/update_word', 'method': 'POST', 'body': {'id': 28585, 'name': 'audio', 'meaning': '\n', 'audio_url': '/balrusapi.kbncran.ru/audio/03-03-2025-20-13-56_05-07-2024-15-46-20_џраххатлы_.mp3', 'audio_path': '/var/www/albek/data/www/balrusapi.kbncran.ru/audio/03-03-2025-20-13-56_05-07-2024-15-46-20_џраххатлы_.mp3'}, 'status_code': 200}
+2025-03-03 20:13:57,594 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:13:57,594 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:13:57,635 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:13:57,635 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:13:58,063 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:13:58,063 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:13:58,068 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:13:58,068 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:13:58,128 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:13:58,128 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:13:58,133 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:13:58,133 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:13:58,345 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:13:58,345 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:13:58,407 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:13:58,407 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:14:03,324 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 20:14:03,324 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 20:14:03,327 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:14:03,327 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:14:03,503 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:14:03,503 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:14:03,818 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:14:03,818 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:14:03,824 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:14:03,824 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:14:04,094 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:14:04,094 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:14:06,654 - ERROR - {'path': '/media/delete_file/var/www/albek/data/www/balrusapi.kbncran.ru/audio/03-03-2025-20-13-56_05-07-2024-15-46-20_џраххатлы_.mp3', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-03 20:14:06,654 - ERROR - {'path': '/media/delete_file/var/www/albek/data/www/balrusapi.kbncran.ru/audio/03-03-2025-20-13-56_05-07-2024-15-46-20_џраххатлы_.mp3', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-03 20:14:34,186 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:14:34,186 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:14:34,648 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:14:34,648 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:14:34,653 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:14:34,653 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:14:34,881 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:14:34,881 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:14:35,585 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 20:14:35,585 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 20:14:35,589 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:14:35,589 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:14:35,821 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:14:35,821 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:14:36,043 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:14:36,043 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:14:36,047 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:14:36,047 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:14:36,326 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:14:36,326 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:15:52,824 - ERROR - Unexpected error: 'utf-8' codec can't decode byte 0xff in position 192: invalid start byte
+Traceback (most recent call last):
+  File "C:\Users\Ill_be_back\Desktop\bal_rus_api\kbnc_logging\logger.py", line 30, in request_log
+    body = await request.json() if is_body_required else None
+           ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\requests.py", line 249, in json
+    self._json = json.loads(body)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\Ill_be_back\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 341, in loads
+    s = s.decode(detect_encoding(s), 'surrogatepass')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 192: invalid start byte
+2025-03-03 20:15:52,824 - ERROR - Unexpected error: 'utf-8' codec can't decode byte 0xff in position 192: invalid start byte
+Traceback (most recent call last):
+  File "C:\Users\Ill_be_back\Desktop\bal_rus_api\kbnc_logging\logger.py", line 30, in request_log
+    body = await request.json() if is_body_required else None
+           ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\requests.py", line 249, in json
+    self._json = json.loads(body)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\Ill_be_back\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 341, in loads
+    s = s.decode(detect_encoding(s), 'surrogatepass')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 192: invalid start byte
+2025-03-03 20:15:54,815 - INFO - {'path': '/dictionary/update_word', 'method': 'POST', 'body': {'id': 28585, 'name': 'audio', 'meaning': '\n', 'audio_url': '/balrusapi.kbncran.ru/audio/03-03-2025-20-13-56_05-07-2024-15-46-20_џраххатлы_.mp3', 'audio_path': '/var/www/albek/data/www/balrusapi.kbncran.ru/audio/03-03-2025-20-13-56_05-07-2024-15-46-20_џраххатлы_.mp3'}}
+2025-03-03 20:15:54,815 - INFO - {'path': '/dictionary/update_word', 'method': 'POST', 'body': {'id': 28585, 'name': 'audio', 'meaning': '\n', 'audio_url': '/balrusapi.kbncran.ru/audio/03-03-2025-20-13-56_05-07-2024-15-46-20_џраххатлы_.mp3', 'audio_path': '/var/www/albek/data/www/balrusapi.kbncran.ru/audio/03-03-2025-20-13-56_05-07-2024-15-46-20_џраххатлы_.mp3'}}
+2025-03-03 20:15:54,823 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:15:54,823 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:15:54,991 - INFO - {'path': '/dictionary/update_word', 'method': 'POST', 'body': {'id': 28585, 'name': 'audio', 'meaning': '\n', 'audio_url': '/balrusapi.kbncran.ru/audio/03-03-2025-20-13-56_05-07-2024-15-46-20_џраххатлы_.mp3', 'audio_path': '/var/www/albek/data/www/balrusapi.kbncran.ru/audio/03-03-2025-20-13-56_05-07-2024-15-46-20_џраххатлы_.mp3'}, 'status_code': 200}
+2025-03-03 20:15:54,991 - INFO - {'path': '/dictionary/update_word', 'method': 'POST', 'body': {'id': 28585, 'name': 'audio', 'meaning': '\n', 'audio_url': '/balrusapi.kbncran.ru/audio/03-03-2025-20-13-56_05-07-2024-15-46-20_џраххатлы_.mp3', 'audio_path': '/var/www/albek/data/www/balrusapi.kbncran.ru/audio/03-03-2025-20-13-56_05-07-2024-15-46-20_џраххатлы_.mp3'}, 'status_code': 200}
+2025-03-03 20:15:54,994 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:15:54,994 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:15:55,304 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:15:55,304 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:15:55,309 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:15:55,309 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:15:55,429 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:15:55,429 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:15:55,434 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:15:55,434 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:15:55,586 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:15:55,586 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:15:55,714 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:15:55,714 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:15:56,735 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 20:15:56,735 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 20:15:56,739 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:15:56,739 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:15:56,923 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:15:56,923 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:15:57,191 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:15:57,191 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:15:57,197 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:15:57,197 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:15:57,469 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:15:57,469 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:18:58,320 - ERROR - Unexpected error: 'utf-8' codec can't decode byte 0xff in position 208: invalid start byte
+Traceback (most recent call last):
+  File "C:\Users\Ill_be_back\Desktop\bal_rus_api\kbnc_logging\logger.py", line 30, in request_log
+    body = await request.json() if is_body_required else None
+           ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\requests.py", line 249, in json
+    self._json = json.loads(body)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\Ill_be_back\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 341, in loads
+    s = s.decode(detect_encoding(s), 'surrogatepass')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 208: invalid start byte
+2025-03-03 20:18:58,320 - ERROR - Unexpected error: 'utf-8' codec can't decode byte 0xff in position 208: invalid start byte
+Traceback (most recent call last):
+  File "C:\Users\Ill_be_back\Desktop\bal_rus_api\kbnc_logging\logger.py", line 30, in request_log
+    body = await request.json() if is_body_required else None
+           ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\requests.py", line 249, in json
+    self._json = json.loads(body)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\Ill_be_back\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 341, in loads
+    s = s.decode(detect_encoding(s), 'surrogatepass')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 208: invalid start byte
+2025-03-03 20:19:00,685 - INFO - {'path': '/dictionary/update_word', 'method': 'POST', 'body': {'id': 28585, 'name': 'audio', 'meaning': '\n', 'audio_url': '/balrusapi.kbncran.ru/audio/03-03-2025-20-19-00_gun-shot_meloboom.mp3', 'audio_path': '/var/www/albek/data/www/balrusapi.kbncran.ru/audio/03-03-2025-20-19-00_gun-shot_meloboom.mp3'}}
+2025-03-03 20:19:00,685 - INFO - {'path': '/dictionary/update_word', 'method': 'POST', 'body': {'id': 28585, 'name': 'audio', 'meaning': '\n', 'audio_url': '/balrusapi.kbncran.ru/audio/03-03-2025-20-19-00_gun-shot_meloboom.mp3', 'audio_path': '/var/www/albek/data/www/balrusapi.kbncran.ru/audio/03-03-2025-20-19-00_gun-shot_meloboom.mp3'}}
+2025-03-03 20:19:00,919 - INFO - {'path': '/dictionary/update_word', 'method': 'POST', 'body': {'id': 28585, 'name': 'audio', 'meaning': '\n', 'audio_url': '/balrusapi.kbncran.ru/audio/03-03-2025-20-19-00_gun-shot_meloboom.mp3', 'audio_path': '/var/www/albek/data/www/balrusapi.kbncran.ru/audio/03-03-2025-20-19-00_gun-shot_meloboom.mp3'}, 'status_code': 200}
+2025-03-03 20:19:00,919 - INFO - {'path': '/dictionary/update_word', 'method': 'POST', 'body': {'id': 28585, 'name': 'audio', 'meaning': '\n', 'audio_url': '/balrusapi.kbncran.ru/audio/03-03-2025-20-19-00_gun-shot_meloboom.mp3', 'audio_path': '/var/www/albek/data/www/balrusapi.kbncran.ru/audio/03-03-2025-20-19-00_gun-shot_meloboom.mp3'}, 'status_code': 200}
+2025-03-03 20:19:00,923 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:19:00,923 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:19:00,949 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:19:00,949 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:19:01,418 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:19:01,418 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:19:01,423 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:19:01,423 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:19:01,428 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:19:01,428 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:19:01,433 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:19:01,433 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:19:01,708 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:19:01,708 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:19:01,733 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:19:01,733 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:19:02,869 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 20:19:02,869 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 20:19:02,873 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:19:02,873 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:19:03,067 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:19:03,067 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:19:03,363 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:19:03,363 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:19:03,368 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:19:03,368 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:19:03,648 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:19:03,648 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:19:41,723 - ERROR - {'path': '/media/delete_file//var/www/albek/data/www/balrusapi.kbncran.ru/audio/03-03-2025-20-19-00_gun-shot_meloboom.mp3', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-03 20:19:41,723 - ERROR - {'path': '/media/delete_file//var/www/albek/data/www/balrusapi.kbncran.ru/audio/03-03-2025-20-19-00_gun-shot_meloboom.mp3', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-03 20:31:11,248 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:31:11,248 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:31:12,423 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:31:12,423 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:31:12,431 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:31:12,431 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:31:12,722 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:31:12,722 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:31:14,785 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 20:31:14,785 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 20:31:14,789 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:31:14,789 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:31:14,988 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:31:14,988 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:31:15,536 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:31:15,536 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:31:15,541 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:31:15,541 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:31:15,819 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:31:15,819 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:31:29,814 - ERROR - {'path': '/media/delete_file//var/www/albek/data/www/balrusapi.kbncran.ru/audio/03-03-2025-20-19-00_gun-shot_meloboom.mp3', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-03 20:31:29,814 - ERROR - {'path': '/media/delete_file//var/www/albek/data/www/balrusapi.kbncran.ru/audio/03-03-2025-20-19-00_gun-shot_meloboom.mp3', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-03 20:31:44,912 - INFO - {'path': '/docs', 'method': 'GET', 'body': None}
+2025-03-03 20:31:44,912 - INFO - {'path': '/docs', 'method': 'GET', 'body': None}
+2025-03-03 20:31:44,913 - INFO - {'path': '/docs', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:31:44,913 - INFO - {'path': '/docs', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:31:45,156 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None}
+2025-03-03 20:31:45,156 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None}
+2025-03-03 20:31:45,235 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:31:45,235 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:31:53,719 - ERROR - {'path': '/media/delete_file', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-03 20:31:53,719 - ERROR - {'path': '/media/delete_file', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-03 20:32:07,135 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:32:07,135 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:32:07,597 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:07,597 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:07,602 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:32:07,602 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:32:07,880 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:07,880 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:08,617 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 20:32:08,617 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 20:32:08,623 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:32:08,623 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:32:08,795 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:08,795 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:09,094 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:09,094 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:09,099 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:32:09,099 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:32:09,338 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:09,338 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:20,321 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:32:20,321 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:32:20,760 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:20,760 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:20,766 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:32:20,766 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:32:21,035 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:21,035 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:21,582 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:32:21,582 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:32:22,043 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:22,043 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:22,048 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:32:22,048 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:32:22,316 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:22,316 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:23,187 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 20:32:23,187 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 20:32:23,193 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:32:23,193 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:32:23,379 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:23,379 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:23,636 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:23,636 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:23,642 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:32:23,642 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:32:23,923 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:23,923 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:40,248 - ERROR - Unexpected error: 'utf-8' codec can't decode byte 0xff in position 208: invalid start byte
+Traceback (most recent call last):
+  File "C:\Users\Ill_be_back\Desktop\bal_rus_api\kbnc_logging\logger.py", line 30, in request_log
+    body = await request.json() if is_body_required else None
+           ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\requests.py", line 249, in json
+    self._json = json.loads(body)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\Ill_be_back\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 341, in loads
+    s = s.decode(detect_encoding(s), 'surrogatepass')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 208: invalid start byte
+2025-03-03 20:32:40,248 - ERROR - Unexpected error: 'utf-8' codec can't decode byte 0xff in position 208: invalid start byte
+Traceback (most recent call last):
+  File "C:\Users\Ill_be_back\Desktop\bal_rus_api\kbnc_logging\logger.py", line 30, in request_log
+    body = await request.json() if is_body_required else None
+           ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ill_be_back\Desktop\bal_rus_api\.venv\Lib\site-packages\starlette\requests.py", line 249, in json
+    self._json = json.loads(body)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\Ill_be_back\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 341, in loads
+    s = s.decode(detect_encoding(s), 'surrogatepass')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 208: invalid start byte
+2025-03-03 20:32:42,086 - INFO - {'path': '/dictionary/update_word', 'method': 'POST', 'body': {'id': 28585, 'name': 'audio', 'meaning': '\n', 'audio_url': '/balrusapi.kbncran.ru/audio/03-03-2025-20-32-41_gun-shot_meloboom.mp3', 'audio_path': '/var/www/albek/data/www/balrusapi.kbncran.ru/audio/03-03-2025-20-32-41_gun-shot_meloboom.mp3'}}
+2025-03-03 20:32:42,086 - INFO - {'path': '/dictionary/update_word', 'method': 'POST', 'body': {'id': 28585, 'name': 'audio', 'meaning': '\n', 'audio_url': '/balrusapi.kbncran.ru/audio/03-03-2025-20-32-41_gun-shot_meloboom.mp3', 'audio_path': '/var/www/albek/data/www/balrusapi.kbncran.ru/audio/03-03-2025-20-32-41_gun-shot_meloboom.mp3'}}
+2025-03-03 20:32:42,356 - INFO - {'path': '/dictionary/update_word', 'method': 'POST', 'body': {'id': 28585, 'name': 'audio', 'meaning': '\n', 'audio_url': '/balrusapi.kbncran.ru/audio/03-03-2025-20-32-41_gun-shot_meloboom.mp3', 'audio_path': '/var/www/albek/data/www/balrusapi.kbncran.ru/audio/03-03-2025-20-32-41_gun-shot_meloboom.mp3'}, 'status_code': 200}
+2025-03-03 20:32:42,356 - INFO - {'path': '/dictionary/update_word', 'method': 'POST', 'body': {'id': 28585, 'name': 'audio', 'meaning': '\n', 'audio_url': '/balrusapi.kbncran.ru/audio/03-03-2025-20-32-41_gun-shot_meloboom.mp3', 'audio_path': '/var/www/albek/data/www/balrusapi.kbncran.ru/audio/03-03-2025-20-32-41_gun-shot_meloboom.mp3'}, 'status_code': 200}
+2025-03-03 20:32:42,359 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:32:42,359 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:32:42,427 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:32:42,427 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:32:42,801 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:42,801 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:42,805 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:32:42,805 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:32:42,896 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:42,896 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:42,900 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:32:42,900 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:32:43,108 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:43,108 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:43,187 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:43,187 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:43,783 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 20:32:43,783 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 20:32:43,786 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:32:43,786 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:32:43,982 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:43,982 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:44,261 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:44,261 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:44,266 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:32:44,266 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:32:44,540 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:44,540 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:32:48,064 - ERROR - {'path': '/media/delete_file', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-03 20:32:48,064 - ERROR - {'path': '/media/delete_file', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-03 20:33:02,136 - INFO - {'path': '/dictionary/update_word', 'method': 'POST', 'body': {'id': 28585, 'name': 'audio', 'meaning': '\n', 'audio_url': '', 'audio_path': '/var/www/albek/data/www/balrusapi.kbncran.ru/audio/03-03-2025-20-32-41_gun-shot_meloboom.mp3'}}
+2025-03-03 20:33:02,136 - INFO - {'path': '/dictionary/update_word', 'method': 'POST', 'body': {'id': 28585, 'name': 'audio', 'meaning': '\n', 'audio_url': '', 'audio_path': '/var/www/albek/data/www/balrusapi.kbncran.ru/audio/03-03-2025-20-32-41_gun-shot_meloboom.mp3'}}
+2025-03-03 20:33:02,377 - INFO - {'path': '/dictionary/update_word', 'method': 'POST', 'body': {'id': 28585, 'name': 'audio', 'meaning': '\n', 'audio_url': '', 'audio_path': '/var/www/albek/data/www/balrusapi.kbncran.ru/audio/03-03-2025-20-32-41_gun-shot_meloboom.mp3'}, 'status_code': 200}
+2025-03-03 20:33:02,377 - INFO - {'path': '/dictionary/update_word', 'method': 'POST', 'body': {'id': 28585, 'name': 'audio', 'meaning': '\n', 'audio_url': '', 'audio_path': '/var/www/albek/data/www/balrusapi.kbncran.ru/audio/03-03-2025-20-32-41_gun-shot_meloboom.mp3'}, 'status_code': 200}
+2025-03-03 20:33:02,381 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:33:02,381 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:33:02,421 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:33:02,421 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:33:02,836 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:33:02,836 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:33:02,841 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:33:02,841 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:33:02,884 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:33:02,884 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:33:02,889 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:33:02,889 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:33:03,115 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:33:03,115 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:33:03,146 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:33:03,146 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:33:03,820 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 20:33:03,820 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-03 20:33:03,823 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:33:03,823 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-03 20:33:04,015 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:33:04,015 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:33:04,300 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:33:04,300 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:33:04,304 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:33:04,304 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-03 20:33:04,620 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-03 20:33:04,620 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
