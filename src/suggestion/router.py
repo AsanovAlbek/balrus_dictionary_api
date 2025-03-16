@@ -68,10 +68,10 @@ async def all_suggests_count(
     return await service.all_suggests_size(name=name, session=session)
 
 
-@suggests_router.post('/accept_suggest', description='Принять слово')
+@suggests_router.post('/accept_suggest/{suggest_id}', description='Принять слово')
 async def accept_suggest(suggest_id: int, session: AsyncSession = Depends(get_async_session)):
-    return service.accept(suggest_id, session)
+    return await service.accept(suggest_id, session)
 
-@suggests_router.post('/reject_suggest', description='Отклонить слово')
+@suggests_router.post('/reject_suggest/{suggest_id}', description='Отклонить слово')
 async def reject_suggest(suggest_id: int, session: AsyncSession = Depends(get_async_session)):
     return await service.reject(suggest_id, session)

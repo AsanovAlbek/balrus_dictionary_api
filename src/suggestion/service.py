@@ -31,7 +31,7 @@ async def suggest(
 async def accept(suggest_id: int, session: AsyncSession):
     suggest = await get_suggest_by_id(suggest_id, session)
     word = Word(
-        word = suggest.word,
+        name = suggest.word,
         meaning = suggest.meaning,
         audio_url = '',
         audio_path = ''

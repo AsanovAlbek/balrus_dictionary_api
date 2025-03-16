@@ -1930,3 +1930,313 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 208: invali
 2025-03-03 20:33:04,304 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
 2025-03-03 20:33:04,620 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
 2025-03-03 20:33:04,620 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 02:09:43,872 - INFO - {'path': '/', 'method': 'GET', 'body': None}
+2025-03-09 02:09:43,872 - INFO - {'path': '/', 'method': 'GET', 'body': None}
+2025-03-09 02:09:43,880 - INFO - {'path': '/', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 02:09:43,880 - INFO - {'path': '/', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 02:09:44,280 - INFO - {'path': '/favicon.ico', 'method': 'GET', 'body': None}
+2025-03-09 02:09:44,280 - INFO - {'path': '/favicon.ico', 'method': 'GET', 'body': None}
+2025-03-09 02:09:44,282 - INFO - {'path': '/favicon.ico', 'method': 'GET', 'body': None, 'status_code': 404}
+2025-03-09 02:09:44,282 - INFO - {'path': '/favicon.ico', 'method': 'GET', 'body': None, 'status_code': 404}
+2025-03-09 02:09:49,853 - INFO - {'path': '/docs', 'method': 'GET', 'body': None}
+2025-03-09 02:09:49,853 - INFO - {'path': '/docs', 'method': 'GET', 'body': None}
+2025-03-09 02:09:49,855 - INFO - {'path': '/docs', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 02:09:49,855 - INFO - {'path': '/docs', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 02:09:50,518 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None}
+2025-03-09 02:09:50,518 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None}
+2025-03-09 02:09:50,608 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 02:09:50,608 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 02:11:50,655 - INFO - {'path': '/suggestion/get_suggest_words', 'method': 'GET', 'body': None}
+2025-03-09 02:11:50,655 - INFO - {'path': '/suggestion/get_suggest_words', 'method': 'GET', 'body': None}
+2025-03-09 02:11:50,659 - INFO - {'path': '/suggestion/get_suggest_words', 'method': 'GET', 'body': None, 'status_code': 401}
+2025-03-09 02:11:50,659 - INFO - {'path': '/suggestion/get_suggest_words', 'method': 'GET', 'body': None, 'status_code': 401}
+2025-03-09 02:12:03,965 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None}
+2025-03-09 02:12:03,965 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None}
+2025-03-09 02:12:05,083 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 02:12:05,083 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:16:46,086 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-09 05:16:46,086 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-09 05:16:47,150 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:16:47,150 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:16:47,156 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-09 05:16:47,156 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-09 05:16:47,410 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:16:47,410 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:16:48,602 - ERROR - {'path': '/suggestion/all_suggest_words', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:16:48,602 - ERROR - {'path': '/suggestion/all_suggest_words', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:16:48,608 - ERROR - {'path': '/suggestion/all_suggests_count', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:16:48,608 - ERROR - {'path': '/suggestion/all_suggests_count', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:16:49,592 - ERROR - {'path': '/suggestion/all_suggest_words', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:16:49,592 - ERROR - {'path': '/suggestion/all_suggest_words', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:16:49,597 - ERROR - {'path': '/suggestion/all_suggests_count', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:16:49,597 - ERROR - {'path': '/suggestion/all_suggests_count', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:16:50,263 - ERROR - {'path': '/suggestion/all_suggest_words', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:16:50,263 - ERROR - {'path': '/suggestion/all_suggest_words', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:16:50,269 - ERROR - {'path': '/suggestion/all_suggests_count', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:16:50,269 - ERROR - {'path': '/suggestion/all_suggests_count', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:16:50,599 - ERROR - {'path': '/suggestion/all_suggest_words', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:16:50,599 - ERROR - {'path': '/suggestion/all_suggest_words', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:16:50,603 - ERROR - {'path': '/suggestion/all_suggests_count', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:16:50,603 - ERROR - {'path': '/suggestion/all_suggests_count', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:16:51,136 - ERROR - {'path': '/suggestion/all_suggest_words', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:16:51,136 - ERROR - {'path': '/suggestion/all_suggest_words', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:16:51,141 - ERROR - {'path': '/suggestion/all_suggests_count', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:16:51,141 - ERROR - {'path': '/suggestion/all_suggests_count', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:16:57,168 - ERROR - {'path': '/suggestion/all_suggest_words', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:16:57,168 - ERROR - {'path': '/suggestion/all_suggest_words', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:16:57,172 - ERROR - {'path': '/suggestion/all_suggests_count', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:16:57,172 - ERROR - {'path': '/suggestion/all_suggests_count', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:17:27,488 - INFO - {'path': '/suggestion/all_suggests_count', 'method': 'GET', 'body': None}
+2025-03-09 05:17:27,488 - INFO - {'path': '/suggestion/all_suggests_count', 'method': 'GET', 'body': None}
+2025-03-09 05:17:27,654 - INFO - {'path': '/suggestion/all_suggests_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:17:27,654 - INFO - {'path': '/suggestion/all_suggests_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:22:51,503 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-09 05:22:51,503 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-09 05:22:51,934 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:22:51,934 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:22:51,946 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-09 05:22:51,946 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-09 05:22:52,188 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:22:52,188 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:22:53,433 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None}
+2025-03-09 05:22:53,433 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None}
+2025-03-09 05:22:53,604 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:22:53,604 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:22:53,608 - INFO - {'path': '/suggestion/all_suggests_count', 'method': 'GET', 'body': None}
+2025-03-09 05:22:53,608 - INFO - {'path': '/suggestion/all_suggests_count', 'method': 'GET', 'body': None}
+2025-03-09 05:22:53,770 - INFO - {'path': '/suggestion/all_suggests_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:22:53,770 - INFO - {'path': '/suggestion/all_suggests_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:30:50,729 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None}
+2025-03-09 05:30:50,729 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None}
+2025-03-09 05:30:50,906 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:30:50,906 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:31:04,546 - ERROR - {'path': '/suggestion/reject_suggest', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:31:04,546 - ERROR - {'path': '/suggestion/reject_suggest', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:31:12,683 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None}
+2025-03-09 05:31:12,683 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None}
+2025-03-09 05:31:12,852 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:31:12,852 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:31:23,730 - ERROR - {'path': '/suggestion/accept_suggest', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:31:23,730 - ERROR - {'path': '/suggestion/accept_suggest', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:31:23,743 - ERROR - Error from handler: 
+    Request json = <starlette.requests.Request object at 0x000002188FF08320>
+    Request headers = Headers({'host': '192.168.177.2:8000', 'connection': 'keep-alive', 'content-length': '0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36', 'accept': 'application/json', 'origin': 'http://192.168.177.2:8000', 'referer': 'http://192.168.177.2:8000/docs', 'accept-encoding': 'gzip, deflate', 'accept-language': 'ru,en;q=0.9'})
+    Exception = [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+2025-03-09 05:31:23,743 - ERROR - Error from handler: 
+    Request json = <starlette.requests.Request object at 0x000002188FF08320>
+    Request headers = Headers({'host': '192.168.177.2:8000', 'connection': 'keep-alive', 'content-length': '0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36', 'accept': 'application/json', 'origin': 'http://192.168.177.2:8000', 'referer': 'http://192.168.177.2:8000/docs', 'accept-encoding': 'gzip, deflate', 'accept-language': 'ru,en;q=0.9'})
+    Exception = [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+2025-03-09 05:33:06,443 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-09 05:33:06,443 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-09 05:33:06,921 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:33:06,921 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:33:06,928 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-09 05:33:06,928 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-09 05:33:07,170 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:33:07,170 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:33:13,567 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None}
+2025-03-09 05:33:13,567 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None}
+2025-03-09 05:33:13,735 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:33:13,735 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:33:13,739 - INFO - {'path': '/suggestion/all_suggests_count', 'method': 'GET', 'body': None}
+2025-03-09 05:33:13,739 - INFO - {'path': '/suggestion/all_suggests_count', 'method': 'GET', 'body': None}
+2025-03-09 05:33:13,900 - INFO - {'path': '/suggestion/all_suggests_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:33:13,900 - INFO - {'path': '/suggestion/all_suggests_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:33:18,024 - ERROR - {'path': '/suggestion/reject_suggest', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:33:18,024 - ERROR - {'path': '/suggestion/reject_suggest', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:33:30,530 - ERROR - {'path': '/suggestion/accept_suggest', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:33:30,530 - ERROR - {'path': '/suggestion/accept_suggest', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:37:58,876 - ERROR - {'path': '/suggestion/reject_suggest', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:37:58,876 - ERROR - {'path': '/suggestion/reject_suggest', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:38:05,803 - ERROR - {'path': '/suggestion/accept_suggest', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:38:05,803 - ERROR - {'path': '/suggestion/accept_suggest', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:39:44,815 - ERROR - {'path': '/suggestion/accept_suggest', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:39:44,815 - ERROR - {'path': '/suggestion/accept_suggest', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:39:45,585 - ERROR - Error from handler: 
+    Request json = <starlette.requests.Request object at 0x00000212B9D64950>
+    Request headers = Headers({'host': '192.168.177.2:8000', 'connection': 'keep-alive', 'content-length': '0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36', 'accept': 'application/json', 'origin': 'http://192.168.177.2:8000', 'referer': 'http://192.168.177.2:8000/docs', 'accept-encoding': 'gzip, deflate', 'accept-language': 'ru,en;q=0.9'})
+    Exception = 'word' is an invalid keyword argument for Word
+2025-03-09 05:39:45,585 - ERROR - Error from handler: 
+    Request json = <starlette.requests.Request object at 0x00000212B9D64950>
+    Request headers = Headers({'host': '192.168.177.2:8000', 'connection': 'keep-alive', 'content-length': '0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36', 'accept': 'application/json', 'origin': 'http://192.168.177.2:8000', 'referer': 'http://192.168.177.2:8000/docs', 'accept-encoding': 'gzip, deflate', 'accept-language': 'ru,en;q=0.9'})
+    Exception = 'word' is an invalid keyword argument for Word
+2025-03-09 05:44:08,613 - ERROR - {'path': '/suggestion/accept_suggest', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:44:08,613 - ERROR - {'path': '/suggestion/accept_suggest', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:44:19,174 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-09 05:44:19,174 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-09 05:44:19,612 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:44:19,612 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:44:19,618 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-09 05:44:19,618 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-09 05:44:19,874 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:44:19,874 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:44:22,549 - INFO - {'path': '/dictionary/remove_word/28586', 'method': 'DELETE', 'body': None}
+2025-03-09 05:44:22,549 - INFO - {'path': '/dictionary/remove_word/28586', 'method': 'DELETE', 'body': None}
+2025-03-09 05:44:22,553 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-09 05:44:22,553 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-09 05:44:22,772 - INFO - {'path': '/dictionary/remove_word/28586', 'method': 'DELETE', 'body': None, 'status_code': 200}
+2025-03-09 05:44:22,772 - INFO - {'path': '/dictionary/remove_word/28586', 'method': 'DELETE', 'body': None, 'status_code': 200}
+2025-03-09 05:44:23,254 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:44:23,254 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:44:23,260 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-09 05:44:23,260 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-09 05:44:23,508 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:44:23,508 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:44:36,622 - ERROR - {'path': '/suggestion/accept_suggest', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:44:36,622 - ERROR - {'path': '/suggestion/accept_suggest', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:59:04,267 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-09 05:59:04,267 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-09 05:59:05,390 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:05,390 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:05,396 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-09 05:59:05,396 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-09 05:59:05,644 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:05,644 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:09,300 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None}
+2025-03-09 05:59:09,300 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None}
+2025-03-09 05:59:09,489 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:09,489 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:09,492 - INFO - {'path': '/suggestion/all_suggests_count', 'method': 'GET', 'body': None}
+2025-03-09 05:59:09,492 - INFO - {'path': '/suggestion/all_suggests_count', 'method': 'GET', 'body': None}
+2025-03-09 05:59:09,654 - INFO - {'path': '/suggestion/all_suggests_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:09,654 - INFO - {'path': '/suggestion/all_suggests_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:12,742 - ERROR - {'path': '/suggestion/reject_suggest/2', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:59:12,742 - ERROR - {'path': '/suggestion/reject_suggest/2', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:59:12,957 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None}
+2025-03-09 05:59:12,957 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None}
+2025-03-09 05:59:13,139 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:13,139 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:13,143 - INFO - {'path': '/suggestion/all_suggests_count', 'method': 'GET', 'body': None}
+2025-03-09 05:59:13,143 - INFO - {'path': '/suggestion/all_suggests_count', 'method': 'GET', 'body': None}
+2025-03-09 05:59:13,304 - INFO - {'path': '/suggestion/all_suggests_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:13,304 - INFO - {'path': '/suggestion/all_suggests_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:21,941 - ERROR - {'path': '/suggestion/accept_suggest/8', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:59:21,941 - ERROR - {'path': '/suggestion/accept_suggest/8', 'method': 'POST', 'body': 'Invalid JSON', 'detail': 'Expecting value: line 1 column 1 (char 0)'}
+2025-03-09 05:59:22,215 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None}
+2025-03-09 05:59:22,215 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None}
+2025-03-09 05:59:22,221 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-09 05:59:22,221 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-09 05:59:22,382 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:22,382 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:22,385 - INFO - {'path': '/suggestion/all_suggests_count', 'method': 'GET', 'body': None}
+2025-03-09 05:59:22,385 - INFO - {'path': '/suggestion/all_suggests_count', 'method': 'GET', 'body': None}
+2025-03-09 05:59:22,560 - INFO - {'path': '/suggestion/all_suggests_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:22,560 - INFO - {'path': '/suggestion/all_suggests_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:22,907 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:22,907 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:22,913 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-09 05:59:22,913 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-09 05:59:23,178 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:23,178 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:25,652 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-09 05:59:25,652 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-09 05:59:26,086 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:26,086 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:26,091 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-09 05:59:26,091 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-09 05:59:26,360 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:26,360 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:30,591 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-09 05:59:30,591 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-09 05:59:30,918 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:30,918 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:30,922 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-09 05:59:30,922 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-09 05:59:31,173 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:31,173 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:32,789 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-09 05:59:32,789 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None}
+2025-03-09 05:59:32,794 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-09 05:59:32,794 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-09 05:59:32,952 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:32,952 - INFO - {'path': '/dictionary/word_by_id', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:33,102 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:33,102 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:33,105 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-09 05:59:33,105 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-09 05:59:33,358 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:33,358 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:36,148 - INFO - {'path': '/dictionary/remove_word/28587', 'method': 'DELETE', 'body': None}
+2025-03-09 05:59:36,148 - INFO - {'path': '/dictionary/remove_word/28587', 'method': 'DELETE', 'body': None}
+2025-03-09 05:59:36,352 - INFO - {'path': '/dictionary/remove_word/28587', 'method': 'DELETE', 'body': None, 'status_code': 200}
+2025-03-09 05:59:36,352 - INFO - {'path': '/dictionary/remove_word/28587', 'method': 'DELETE', 'body': None, 'status_code': 200}
+2025-03-09 05:59:36,356 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-09 05:59:36,356 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-09 05:59:36,367 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-09 05:59:36,367 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-09 05:59:36,673 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:36,673 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:36,676 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-09 05:59:36,676 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-09 05:59:36,698 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:36,698 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:36,702 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-09 05:59:36,702 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-09 05:59:36,923 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:36,923 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:36,943 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:36,943 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:38,797 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-09 05:59:38,797 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-09 05:59:39,218 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:39,218 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:39,223 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-09 05:59:39,223 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-09 05:59:39,478 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-09 05:59:39,478 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-12 23:51:59,165 - INFO - {'path': '/', 'method': 'GET', 'body': None}
+2025-03-12 23:51:59,165 - INFO - {'path': '/', 'method': 'GET', 'body': None}
+2025-03-12 23:51:59,173 - INFO - {'path': '/', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-12 23:51:59,173 - INFO - {'path': '/', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-12 23:51:59,352 - INFO - {'path': '/favicon.ico', 'method': 'GET', 'body': None}
+2025-03-12 23:51:59,352 - INFO - {'path': '/favicon.ico', 'method': 'GET', 'body': None}
+2025-03-12 23:51:59,355 - INFO - {'path': '/favicon.ico', 'method': 'GET', 'body': None, 'status_code': 404}
+2025-03-12 23:51:59,355 - INFO - {'path': '/favicon.ico', 'method': 'GET', 'body': None, 'status_code': 404}
+2025-03-12 23:52:04,165 - INFO - {'path': '/docs', 'method': 'GET', 'body': None}
+2025-03-12 23:52:04,165 - INFO - {'path': '/docs', 'method': 'GET', 'body': None}
+2025-03-12 23:52:04,166 - INFO - {'path': '/docs', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-12 23:52:04,166 - INFO - {'path': '/docs', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-12 23:52:05,081 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None}
+2025-03-12 23:52:05,081 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None}
+2025-03-12 23:52:05,162 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-12 23:52:05,162 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-13 00:00:37,962 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-13 00:00:37,962 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-13 00:00:40,981 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-13 00:00:40,981 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-13 00:00:40,994 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-13 00:00:40,994 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-13 00:00:41,241 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-13 00:00:41,241 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-13 00:05:54,034 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None}
+2025-03-13 00:05:54,034 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None}
+2025-03-13 00:05:54,202 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-13 00:05:54,202 - INFO - {'path': '/suggestion/all_suggest_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-13 00:05:54,207 - INFO - {'path': '/suggestion/all_suggests_count', 'method': 'GET', 'body': None}
+2025-03-13 00:05:54,207 - INFO - {'path': '/suggestion/all_suggests_count', 'method': 'GET', 'body': None}
+2025-03-13 00:05:54,377 - INFO - {'path': '/suggestion/all_suggests_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-13 00:05:54,377 - INFO - {'path': '/suggestion/all_suggests_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-13 00:05:55,905 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-13 00:05:55,905 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-13 00:05:56,391 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-13 00:05:56,391 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-13 00:05:56,398 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-13 00:05:56,398 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-13 00:05:56,655 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-13 00:05:56,655 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-13 00:05:58,761 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-13 00:05:58,761 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-13 00:05:59,191 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-13 00:05:59,191 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-13 00:05:59,198 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-13 00:05:59,198 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-13 00:05:59,449 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-13 00:05:59,449 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-13 04:50:35,811 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-13 04:50:35,811 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-03-13 04:50:37,290 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-13 04:50:37,290 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-13 04:50:37,303 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-13 04:50:37,303 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None}
+2025-03-13 04:50:37,606 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-03-13 04:50:37,606 - INFO - {'path': '/dictionary/words_count', 'method': 'GET', 'body': None, 'status_code': 200}
