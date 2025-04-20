@@ -9,7 +9,7 @@ from suggestion.router import suggests_router
 from starlette.responses import JSONResponse
 from kbnc_logging.logger import KBNCLogger
 
-kbnc_logger = KBNCLogger(name = "src/kbnc_logging/api_logs.log")
+kbnc_logger = KBNCLogger(name = "kbnc_logging/api_logs.log")
 
 app = FastAPI()
 app.include_router(auth_router, prefix='/auth/jwt')

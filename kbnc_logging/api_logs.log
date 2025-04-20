@@ -9678,3 +9678,23 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 4294: inval
 2025-04-20 00:59:19,463 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
 2025-04-20 00:59:19,821 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
 2025-04-20 00:59:19,821 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-04-21 01:06:25,000 - INFO - {'path': '/', 'method': 'GET', 'body': None}
+2025-04-21 01:06:25,000 - INFO - {'path': '/', 'method': 'GET', 'body': None}
+2025-04-21 01:06:25,005 - INFO - {'path': '/', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-04-21 01:06:25,005 - INFO - {'path': '/', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-04-21 01:06:25,253 - INFO - {'path': '/favicon.ico', 'method': 'GET', 'body': None}
+2025-04-21 01:06:25,253 - INFO - {'path': '/favicon.ico', 'method': 'GET', 'body': None}
+2025-04-21 01:06:25,255 - INFO - {'path': '/favicon.ico', 'method': 'GET', 'body': None, 'status_code': 404}
+2025-04-21 01:06:25,255 - INFO - {'path': '/favicon.ico', 'method': 'GET', 'body': None, 'status_code': 404}
+2025-04-21 01:06:40,587 - INFO - {'path': '/docs', 'method': 'GET', 'body': None}
+2025-04-21 01:06:40,587 - INFO - {'path': '/docs', 'method': 'GET', 'body': None}
+2025-04-21 01:06:40,588 - INFO - {'path': '/docs', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-04-21 01:06:40,588 - INFO - {'path': '/docs', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-04-21 01:06:40,795 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None}
+2025-04-21 01:06:40,795 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None}
+2025-04-21 01:06:40,854 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-04-21 01:06:40,854 - INFO - {'path': '/openapi.json', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-04-21 01:06:53,883 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-04-21 01:06:53,883 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None}
+2025-04-21 01:06:57,427 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
+2025-04-21 01:06:57,427 - INFO - {'path': '/dictionary/get_words', 'method': 'GET', 'body': None, 'status_code': 200}
