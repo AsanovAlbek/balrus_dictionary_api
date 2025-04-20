@@ -37,15 +37,13 @@ async def upload_file(
         available_types = ', '.join(validator.audio_extensions)
         raise HTTPException(
             status_code=status.HTTP_400_BAD_REQUEST,
-            detail=f"Неправильный тип файла. Допустимые типы: {
-                available_types}"
+            detail=f"Неправильный тип файла. Допустимые типы: {available_types}"
         )
     
     if not validator.validate_size():
         raise HTTPException(
             status_code=status.HTTP_400_BAD_REQUEST,
-            detail=f"Размер файла не должен превышать {
-                validator.max_size_mb} мб"
+            detail=f"Размер файла не должен превышать {validator.max_size_mb} мб"
         )
     file_path = await media_utils.create_unique_filepath(upload_file, FOLDER_URL)
     sftp.putfo(upload_file.file, file_path)
