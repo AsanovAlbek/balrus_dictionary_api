@@ -55,5 +55,4 @@ async def handle_all_unhandled_exceptions(request: Request, exception: Exception
     return JSONResponse(content={"exception": str(exception)})
 
 if __name__ == '__main__':
-    # uvicorn.run('main:app', host='127.0.0.1', port=8000, reload=True, workers=4)
-    uvicorn.run('main:app', host='192.168.177.2', port=8000, reload=True, workers=4)
+    uvicorn.run('main:app', host='192.168.50.113', port=8000, reload=True, workers=4)
